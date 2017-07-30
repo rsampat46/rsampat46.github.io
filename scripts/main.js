@@ -59,8 +59,8 @@ d3.json('data/10yravg.json',function(e,d2){
 	  landarea.push(d.landarea);
   });
  
-  x.domain(d3.extent(data, function(d) { return d.sepalWidth; })).nice();
-  y.domain(d3.extent(data, function(d) { return d.sepalLength; })).nice();
+  x.domain(d3.extent(CountryData, function(d) { return d.AvgGDP; })).nice();
+  y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
 
   svg.append("g")
       .attr("class", "x axis")
