@@ -2,38 +2,33 @@ d3.csv("data/10yravg.csv", function(data) {
   data[0];
 });
 
-var initialScaleData = [0, 1000, 3000, 2000, 5000, 4000, 7000, 6000, 9000, 8000, 10000];
-
-var newScaledData = [];
-
-var linearScale = d3.scale.linear()
-                   .domain([0,d3.max(initialScaleData)])
-                   .range([0,100]);
-
-for (var i = 0; i < initialScaleData.length; i++) {
-  newScaledData[i] = linearScale(initialScaleData[i]);
+var jsonCircles = [
+{
+"x_axis":30,
+"y_axis":30,
+"radius":20,
+"color":"pink"
+},{
+"x_axis":60,
+"y_axis":60,
+"radius":20,
+"color":"blue"
+},{
+"x_axis":90,
+"y_axis":90,
+"radius":20,
+"color":"yellow"
 }
+];
 
-newScaledData;
-//[0, 10, 30, 20, 50, 40, 70, 60, 90, 80, 100]
-
-
-var circle = svg.selectAll("circle")
-  .data(data);
-
-circle.exit().remove();
-
-circle.enter().append("circle")
-    .attr("r", 2.5)
-  .merge(circle)
-    .attr("cx", function(d) { return d.x; })
-    .attr("cy", function(d) { return d.y; });
-	
-	circle.enter().append("circle")
-    .attr("r", 0)
-  .transition()
-    .attr("r", 2.5);
-	
-	circle.exit().transition()
-    .attr("r", 0)
-    .remove();
+var svgContainer = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+var circles = svgContainer.selectAll("circle")
+.data(jsonCircles)
+.enter()
+.append("circle");
+var circleattr = circles.attr("cx",function(d){return d.x_axis;})
+.attr("cy",function(d){return d.y_axis;})
+.attr("r",function(d){return d.radius;})
+.style("fill",function(d){return d.color;});
