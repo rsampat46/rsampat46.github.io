@@ -43,7 +43,7 @@ function proc_data(){
 	  landarea.push(e.LandArea.replace(/,/g,""));
 	  
       var cc = Country_continent_code.filter(function(el){
-        if (el.name == e["Country Name"]){
+        if (el.name == e["CountryName"]){
           return el;
         }
       });
