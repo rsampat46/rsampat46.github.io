@@ -31,17 +31,10 @@ function proc_data(){
   };
 
   var population = new Array();
-  var gdparr = new Array();
-  var arableland = new Array();
-  var landarea = new Array();
-  
+
   // Get the population into a separate Array
   CountryData.forEach(function(e){
-      population.push(parseInt(e.AvgRuralPopln.replace(/,/g,"")));
-	  gdparr.push(e.AvgGDP.replace(/,/g,""));
-	  arableland.push(e.AvgArableLand.replace(/,/g,""));
-	  landarea.push(e.LandArea.replace(/,/g,""));
-	  
+      population.push(parseInt(e.Population.replace(/,/g,"")));
       var cc = Country_continent_code.filter(function(el){
         if (el.name == e["Country Name"]){
           return el;
@@ -203,7 +196,7 @@ function proc_data(){
     .append("g")
     .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
-  sp.append("text").attr("x","10").attr("y",10).style("fill","rgb(105, 49, 132)").style("transform","scale(1.2)").text("Overview of the Data : Change in % of  between 1980 to 2014");
+  sp.append("text").attr("x","10").attr("y",10).style("fill","rgb(105, 49, 132)").style("transform","scale(1.2)").text("Overview of the Data : Change in % of Rural Population between 1980 to 2014");
 
   sp.selectAll("circle")
     .data(CountryData)
