@@ -62,11 +62,11 @@ d3.json('data/10yravg.json',function(e,d2){
   //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
   var x_new = d3.scale.log()
                 .domain([gdp_range[0],gdp_range[1]]).nice()
-                .range([0,width]);
+                .range([1000000000,10000000000000]);
   var arableland_range = d3.extent(arableland);
   var y_new = d3.scale.linear()
                 .domain([arableland_range[0],arableland_range[1]]).nice()
-                .range([0,height]);
+                .range([0,100]);
 
   //x.domain(d3.extent(CountryData, function(d) { return d.AvgGDP; })).nice();
   //y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
@@ -80,7 +80,7 @@ d3.json('data/10yravg.json',function(e,d2){
       .attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
-      .text("Sepal Width (cm)");
+      .text("Average 10 year GDP(US$)");
 
   svg.append("g")
       .attr("class", "y axis")
@@ -91,7 +91,7 @@ d3.json('data/10yravg.json',function(e,d2){
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Sepal Length (cm)")
+      .text("Arable Land (% of Land area)")
 
   svg.selectAll(".dot")
       .data(CountryData)
