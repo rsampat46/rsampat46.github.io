@@ -11,7 +11,6 @@
 #scatterplot circle{
   fill: none;
   stroke-width: 3;
-  /*stroke : red;*/
   pointer-events: all;
 }
 
