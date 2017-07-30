@@ -45,9 +45,9 @@ d3.json('data/10yravg.json',function(e,d2){
   });
  var gdp_range = d3.extent(gdparr);
   //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
-  var x_new = d3.scale.log().base(Math.E)
+  var x_new = d3.scale.log()
                 .domain([gdp_range[0],gdp_range[1]]).nice()
-                .range([gdp_range[0],gdp_range[1]]);
+                .range([1000000000,10000000000000]);
   var arableland_range = d3.extent(arableland);
   var y_new = d3.scale.linear()
                 .domain([arableland_range[0],arableland_range[1]]).nice()
@@ -62,11 +62,11 @@ d3.json('data/10yravg.json',function(e,d2){
 var color = d3.scale.category10();
 
 var xAxis = d3.svg.axis()
-    .scale(x_new)
+    .scale(x)
     .orient("bottom");
 
 var yAxis = d3.svg.axis()
-    .scale(y_new)
+    .scale(y)
     .orient("left");
 
   svg.append("g")
