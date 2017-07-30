@@ -58,7 +58,7 @@ function proc_data(){
     .domain([0, 7])
     .interpolator(d3.interpolateRainbow);
 
-  var pop_range = d3.extent(population)
+  var pop_range = d3.extent(population);
 
   var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
 
@@ -174,13 +174,14 @@ function proc_data(){
   var margin = {top: 20, right: 20, bottom: 50, left: 70};
   var width =  0.6 * $(window).width() - margin.left - margin.right;
   var height = $(window).height() - margin.top - margin.bottom;
-
-  var x_new = d3.scaleLinear()
-                .domain([-5,100])
+  var gdp_range = d3.extent(gdparr);
+  //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
+  var x_new = d3.scaleLog()
+                .domain([gdp_range[0],gdp_range[1]])
                 .range([0,width]);
-
+  var arableland_range = d3.extent(arableland);
   var y_new = d3.scaleLinear()
-                .domain([-5,100])
+                .domain([arableland_range[0],arableland_range[1]])
                 .range([0,height]);
 
   var tooltip = d3.select("#tooltip");
@@ -203,14 +204,14 @@ function proc_data(){
     .append("g")
     .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
-  sp.append("text").attr("x","10").attr("y",10).style("fill","rgb(105, 49, 132)").style("transform","scale(1.2)").text("Overview of the Data : Change in % of  between 1980 to 2014");
+  sp.append("text").attr("x","10").attr("y",10).style("fill","rgb(105, 49, 132)").style("transform","scale(1.2)").text("Overview of the Data : Arable Land % & Rural Population Vs GDP- 2005 to 2015");
 
   sp.selectAll("circle")
     .data(CountryData)
     .enter().append("circle")
-    .attr("r",function(d){ return circle_size(parseInt(d["Population"].replace(/,/g,""))) })
-    .attr("cx",function(d) { return x_new(d[1980])  })
-    .attr("cy",function(d) { return height - y_new(d[2014])  })
+    .attr("r",function(d){ return circle_size(parseInt(d["AvgRuralPopln"].replace(/,/g,""))/1000000) })
+    .attr("cx",function(d) { return x_new(d[AvgGDP])  })
+    .attr("cy",function(d) { return height - y_new(d[AvgArableLand])  })
     // .attr("data-legend",function(d){ return d["Continent"] })
     .style("stroke",function(d,i){ return sequentialScale(ContMaster[d["Continent"]]) })
     .on("mouseover",function(d,i){
@@ -229,10 +230,10 @@ function proc_data(){
                  .html(function(){
 
                     var str = "";
-                    str = "Country Name : " + d['Country Name'];
+                    str = "Country Name : " + d['CountryName'];
                     str = str + "<br />";
-                    str = str + "% 1980 : " + d[1980] + "<br />" ;
-                    str = str + "% 2014 : " + d[2014] + "<br />" ;
+                    str = str + "AvgGDP : " + d[AvgGDP] + "<br />" ;
+                    str = str + "AvgArableLand : " + d[AvgArableLand] + "<br />" ;
                     str = str + "Continent : " + d["Continent"];
                     return str;
 
@@ -244,8 +245,8 @@ function proc_data(){
       d3.select(this).style("fill","none");
     })
     .on("click",function(d,i){
-      if(selectedCountries.indexOf(d['Country Name']) == -1){
-        selectedCountries.push(d['Country Name']);
+      if(selectedCountries.indexOf(d['CountryName']) == -1){
+        selectedCountries.push(d['CountryName']);
         generatelistonScreen();
       }
     })
