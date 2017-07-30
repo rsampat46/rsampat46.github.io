@@ -16,6 +16,14 @@ d3.json('data/10yravg.json',function(e,d2){
 
   // console.log(e);
   CountryData = d2;
+  CountryData.forEach(function(d) {
+	  d.AvgRuralPopln = +d.AvgRuralPopln;
+	  d.AvgGDP = +d.AvgGDP;
+	  d.AvgArableLand = +d.AvgArableLand;
+	  d.LandArea = +d.LandArea;
+  });
+  
+  
 
   d3.json('data/country_continent.json',function(e,d){
     Country_continent_code = d;
@@ -27,11 +35,7 @@ function proc_data(){
 
   // Add an index value into the above Array
   for(var i = 0 ; i < CountryData.length ; i++){
-      CountryData[i].index_val = i;
-	  CountryData[i].AvgRuralPopln = +CountryData[i].AvgRuralPopln;
-	  CountryData[i].AvgGDP = +CountryData[i].AvgGDP;
-	  CountryData[i].AvgArableLand = +CountryData[i].AvgArableLand;
-	  CountryData[i].LandArea = +CountryData[i].LandArea;
+      CountryData[i].index_val = i;	  
   };
 
   var population = new Array();
@@ -41,10 +45,7 @@ function proc_data(){
   
   // Get the population into a separate Array
   CountryData.forEach(function(e){
-	  e.AvgRuralPopln = +e.AvgRuralPopln;
-	  e.AvgGDP = +e.AvgGDP;
-	  e.AvgArableLand = +e.AvgArableLand;
-	  e.LandArea = +e.LandArea;
+	  
       population.push(parseInt(e.AvgRuralPopln.replace(/,/g,"")));
 	  gdparr.push(e.AvgGDP.replace(/,/g,""));
 	  arableland.push(e.AvgArableLand.replace(/,/g,""));
