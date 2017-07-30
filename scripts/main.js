@@ -28,6 +28,10 @@ function proc_data(){
   // Add an index value into the above Array
   for(var i = 0 ; i < CountryData.length ; i++){
       CountryData[i].index_val = i;
+	  CountryData[i].AvgRuralPopln = +CountryData[i].AvgRuralPopln;
+	  CountryData[i].AvgGDP = +CountryData[i].AvgGDP;
+	  CountryData[i].AvgArableLand = +CountryData[i].AvgArableLand;
+	  CountryData[i].LandArea = +CountryData[i].LandArea;
   };
 
   var population = new Array();
