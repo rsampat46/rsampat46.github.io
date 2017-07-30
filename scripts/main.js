@@ -68,8 +68,8 @@ d3.json('data/10yravg.json',function(e,d2){
                 .domain([arableland_range[0],arableland_range[1]]).nice()
                 .range([0,height]);
 
-  x.domain(d3.extent(CountryData, function(d) { return d.AvgGDP; })).nice();
-  y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
+  //x.domain(d3.extent(CountryData, function(d) { return d.AvgGDP; })).nice();
+  //y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
 
   svg.append("g")
       .attr("class", "x axis")
@@ -98,7 +98,7 @@ d3.json('data/10yravg.json',function(e,d2){
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", 3.5)
-	  .attr("cx",function(d) { return x_new(d[AvgGDP]);  })
+	  .attr("cx",function(d) { return x_new(d.AvgGDP);  })
       //.attr("cx", function(d) { return x(d.AvgGDP); })
       .attr("cy", function(d) { return y_new(d.AvgArableLand); });
       //.style("fill", function(d) { return color(d.species); });
