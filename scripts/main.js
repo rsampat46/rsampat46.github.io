@@ -112,5 +112,5 @@ d3.json('data/10yravg.json',function(e,d2){
       .style("text-anchor", "end")
       .text(function(d) { return d; });
 
-;
+
   
