@@ -12,8 +12,7 @@ var load_state =
   "Page3Part3" : false,
   "Page3Part4" : false
 }
-
-d3.json('data/10yravg.json',function(e,d2){
+d3.csv("data/10yravg.csv", function(e,d2) {
 
   // console.log(e);
   CountryData = d2;
