@@ -37,6 +37,10 @@ function proc_data(){
   
   // Get the population into a separate Array
   CountryData.forEach(function(e){
+	  d.AvgRuralPopln = +d.AvgRuralPopln;
+	  d.AvgGDP = +d.AvgGDP;
+	  d.AvgArableLand = +d.AvgArableLand;
+	  d.LandArea = +d.LandArea;
       population.push(parseInt(e.AvgRuralPopln.replace(/,/g,"")));
 	  gdparr.push(e.AvgGDP.replace(/,/g,""));
 	  arableland.push(e.AvgArableLand.replace(/,/g,""));
