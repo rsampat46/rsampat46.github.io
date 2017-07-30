@@ -1,0 +1,2378 @@
+[
+ {
+   "CountryName": "Arab World",
+   "AvgGDP": "2.15631E+12",
+   "AvgArableLand": "4.266813215",
+   "AvgRuralPopln": "154123166.7",
+   "LandArea": "13623921",
+   "AvgForestCover": "3.164410804",
+   "AvgAgriContrib": "6.820829026"
+ },
+ {
+   "CountryName": "Caribbean small states",
+   "AvgGDP": "61668919150",
+   "AvgArableLand": "1.825327899",
+   "AvgRuralPopln": "4004926.545",
+   "LandArea": "404850",
+   "AvgForestCover": "85.29072047",
+   "AvgAgriContrib": "4.17914177"
+ },
+ {
+   "CountryName": "Central Europe and the Baltics",
+   "AvgGDP": "1.29335E+12",
+   "AvgArableLand": "34.03779539",
+   "AvgRuralPopln": "39700319",
+   "LandArea": "1104182",
+   "AvgForestCover": "33.67025969",
+   "AvgAgriContrib": "3.727658171"
+ },
+ {
+   "CountryName": "Early-demographic dividend",
+   "AvgGDP": "8.0807E+12",
+   "AvgArableLand": "12.99743842",
+   "AvgRuralPopln": "1679439876",
+   "LandArea": "33109107",
+   "AvgForestCover": "22.30994954",
+   "AvgAgriContrib": "10.85143381"
+ },
+ {
+   "CountryName": "East Asia & Pacific",
+   "AvgGDP": "1.67686E+13",
+   "AvgArableLand": "9.501421611",
+   "AvgRuralPopln": "1051723911",
+   "LandArea": "24387020.3",
+   "AvgForestCover": "26.19094025",
+   "AvgAgriContrib": "5.744054479"
+ },
+ {
+   "CountryName": "East Asia & Pacific (excluding high income)",
+   "AvgGDP": "8.19506E+12",
+   "AvgArableLand": "11.22536631",
+   "AvgRuralPopln": "1026907125",
+   "LandArea": "15914380.8",
+   "AvgForestCover": "29.54249258",
+   "AvgAgriContrib": "10.58899352"
+ },
+ {
+   "CountryName": "East Asia & Pacific (IDA & IBRD countries)",
+   "AvgGDP": "8.17902E+12",
+   "AvgArableLand": "11.16115227",
+   "AvgRuralPopln": "1017167361",
+   "LandArea": "15793790.8",
+   "AvgForestCover": "29.40822032",
+   "AvgAgriContrib": "10.58899352"
+ },
+ {
+   "CountryName": "Euro area",
+   "AvgGDP": "1.26132E+13",
+   "AvgArableLand": "24.56496837",
+   "AvgRuralPopln": "84399622.18",
+   "LandArea": "2678201",
+   "AvgForestCover": "37.73791159",
+   "AvgAgriContrib": "1.690624098"
+ },
+ {
+   "CountryName": "Europe & Central Asia",
+   "AvgGDP": "2.11208E+13",
+   "AvgArableLand": "12.31145215",
+   "AvgRuralPopln": "266116658.7",
+   "LandArea": "27447511",
+   "AvgForestCover": "37.87179905",
+   "AvgAgriContrib": "2.266893094"
+ },
+ {
+   "CountryName": "Europe & Central Asia (excluding high income)",
+   "AvgGDP": "3.07544E+12",
+   "AvgArableLand": "10.5870345",
+   "AvgRuralPopln": "141917435.1",
+   "LandArea": "22627977",
+   "AvgForestCover": "38.77132937",
+   "AvgAgriContrib": "6.692874893"
+ },
+ {
+   "CountryName": "Europe & Central Asia (IDA & IBRD countries)",
+   "AvgGDP": "3.59725E+12",
+   "AvgArableLand": "10.95888005",
+   "AvgRuralPopln": "158641494.2",
+   "LandArea": "22990267",
+   "AvgForestCover": "38.64923365",
+   "AvgAgriContrib": "6.147342559"
+ },
+ {
+   "CountryName": "European Union",
+   "AvgGDP": "1.72067E+13",
+   "AvgArableLand": "25.71209277",
+   "AvgRuralPopln": "132361039.6",
+   "LandArea": "4241144",
+   "AvgForestCover": "37.51968796",
+   "AvgAgriContrib": "1.662444478"
+ },
+ {
+   "CountryName": "Fragile and conflict affected situations",
+   "AvgGDP": "5.94174E+11",
+   "AvgArableLand": "6.035642675",
+   "AvgRuralPopln": "263140313.3",
+   "LandArea": "14824168",
+   "AvgForestCover": "22.89885863",
+   "AvgAgriContrib": "21.61417077"
+ },
+ {
+   "CountryName": "Heavily indebted poor countries (HIPC)",
+   "AvgGDP": "4.6563E+11",
+   "AvgArableLand": "7.915906576",
+   "AvgRuralPopln": "425591303.2",
+   "LandArea": "19754791",
+   "AvgForestCover": "28.80875763",
+   "AvgAgriContrib": "28.11483025"
+ },
+ {
+   "CountryName": "High income",
+   "AvgGDP": "4.54468E+13",
+   "AvgArableLand": "10.28892116",
+   "AvgRuralPopln": "226778638.5",
+   "LandArea": "35088855.4",
+   "AvgForestCover": "28.71542801",
+   "AvgAgriContrib": "1.459014998"
+ },
+ {
+   "CountryName": "IBRD only",
+   "AvgGDP": "1.94086E+13",
+   "AvgArableLand": "11.31554975",
+   "AvgRuralPopln": "2132324490",
+   "LandArea": "67948473.8",
+   "AvgForestCover": "33.55371882",
+   "AvgAgriContrib": "8.688776906"
+ },
+ {
+   "CountryName": "IDA & IBRD total",
+   "AvgGDP": "2.10179E+13",
+   "AvgArableLand": "10.9568401",
+   "AvgRuralPopln": "3125938204",
+   "LandArea": "95724208.8",
+   "AvgForestCover": "31.5378595",
+   "AvgAgriContrib": "9.771623851"
+ },
+ {
+   "CountryName": "IDA blend",
+   "AvgGDP": "8.30941E+11",
+   "AvgArableLand": "13.86072995",
+   "AvgRuralPopln": "327366230.5",
+   "LandArea": "6824490",
+   "AvgForestCover": "28.12068582",
+   "AvgAgriContrib": "23.39815252"
+ },
+ {
+   "CountryName": "IDA only",
+   "AvgGDP": "7.75973E+11",
+   "AvgArableLand": "8.84696585",
+   "AvgRuralPopln": "666247483.5",
+   "LandArea": "20952200",
+   "AvgForestCover": "26.11098084",
+   "AvgAgriContrib": "27.29722864"
+ },
+ {
+   "CountryName": "IDA total",
+   "AvgGDP": "1.61151E+12",
+   "AvgArableLand": "10.07926098",
+   "AvgRuralPopln": "993613713.9",
+   "LandArea": "27776650",
+   "AvgForestCover": "26.60495285",
+   "AvgAgriContrib": "25.29702498"
+ },
+ {
+   "CountryName": "Late-demographic dividend",
+   "AvgGDP": "1.36816E+13",
+   "AvgArableLand": "9.174977473",
+   "AvgRuralPopln": "976588371.9",
+   "LandArea": "44535319.8",
+   "AvgForestCover": "38.88060319",
+   "AvgAgriContrib": "7.5172099"
+ },
+ {
+   "CountryName": "Latin America & Caribbean",
+   "AvgGDP": "4.9455E+12",
+   "AvgArableLand": "8.227753876",
+   "AvgRuralPopln": "128751303",
+   "LandArea": "20042207.4",
+   "AvgForestCover": "46.90489971",
+   "AvgAgriContrib": "5.386914538"
+ },
+ {
+   "CountryName": "Latin America & Caribbean (excluding high income)",
+   "AvgGDP": "4.54713E+12",
+   "AvgArableLand": "8.457085969",
+   "AvgRuralPopln": "124732957.4",
+   "LandArea": "19096113",
+   "AvgForestCover": "48.20040396",
+   "AvgAgriContrib": "5.518679766"
+ },
+ {
+   "CountryName": "Latin America & the Caribbean (IDA & IBRD countries)",
+   "AvgGDP": "4.75506E+12",
+   "AvgArableLand": "8.105646172",
+   "AvgRuralPopln": "125526503.8",
+   "LandArea": "19913632",
+   "AvgForestCover": "47.00274963",
+   "AvgAgriContrib": "5.471600145"
+ },
+ {
+   "CountryName": "Least developed countries: UN classification",
+   "AvgGDP": "6.74117E+11",
+   "AvgArableLand": "8.272151845",
+   "AvgRuralPopln": "602395843.3",
+   "LandArea": "20167053",
+   "AvgForestCover": "27.61797487",
+   "AvgAgriContrib": "28.0627087"
+ },
+ {
+   "CountryName": "Low & middle income",
+   "AvgGDP": "2.03115E+13",
+   "AvgArableLand": "10.97469932",
+   "AvgRuralPopln": "3119107780",
+   "LandArea": "94670126.8",
+   "AvgForestCover": "31.66536746",
+   "AvgAgriContrib": "10.01438703"
+ },
+ {
+   "CountryName": "Low income",
+   "AvgGDP": "2.92365E+11",
+   "AvgArableLand": "8.993189868",
+   "AvgRuralPopln": "397804907.5",
+   "LandArea": "13382221",
+   "AvgForestCover": "28.16490982",
+   "AvgAgriContrib": "32.55699253"
+ },
+ {
+   "CountryName": "Lower middle income",
+   "AvgGDP": "4.29218E+12",
+   "AvgArableLand": "18.21341273",
+   "AvgRuralPopln": "1716053318",
+   "LandArea": "21754614",
+   "AvgForestCover": "24.97526889",
+   "AvgAgriContrib": "17.70607788"
+ },
+ {
+   "CountryName": "Middle East & North Africa",
+   "AvgGDP": "2.74448E+12",
+   "AvgArableLand": "4.713953204",
+   "AvgRuralPopln": "144433489.9",
+   "LandArea": "11238740",
+   "AvgForestCover": "2.041475085",
+   "AvgAgriContrib": "6.152930726"
+ },
+ {
+   "CountryName": "Middle East & North Africa (excluding high income)",
+   "AvgGDP": "1.26982E+12",
+   "AvgArableLand": "5.700232951",
+   "AvgRuralPopln": "136559222.4",
+   "LandArea": "8643800",
+   "AvgForestCover": "2.485460498",
+   "AvgAgriContrib": "9.200557077"
+ },
+ {
+   "CountryName": "Middle East & North Africa (IDA & IBRD countries)",
+   "AvgGDP": "1.26131E+12",
+   "AvgArableLand": "5.696462",
+   "AvgRuralPopln": "135569970.7",
+   "LandArea": "8637780",
+   "AvgForestCover": "2.486131224",
+   "AvgAgriContrib": "9.225385452"
+ },
+ {
+   "CountryName": "Middle income",
+   "AvgGDP": "2.00192E+13",
+   "AvgArableLand": "11.3010051",
+   "AvgRuralPopln": "2721302872",
+   "LandArea": "81288875.8",
+   "AvgForestCover": "32.24173987",
+   "AvgAgriContrib": "9.717228121"
+ },
+ {
+   "CountryName": "North America",
+   "AvgGDP": "1.697E+13",
+   "AvgArableLand": "11.09490198",
+   "AvgRuralPopln": "65828180.73",
+   "LandArea": "18255480",
+   "AvgForestCover": "35.91840426",
+   "AvgAgriContrib": "1.236198241"
+ },
+ {
+   "CountryName": "Not classified",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "#DIV/0!",
+   "LandArea": "0",
+   "AvgForestCover": "#DIV/0!",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "OECD members",
+   "AvgGDP": "4.46653E+13",
+   "AvgArableLand": "11.52665525",
+   "AvgRuralPopln": "261172420.1",
+   "LandArea": "34419488",
+   "AvgForestCover": "31.20898913",
+   "AvgAgriContrib": "1.623150176"
+ },
+ {
+   "CountryName": "Other small states",
+   "AvgGDP": "3.29589E+11",
+   "AvgArableLand": "2.04956893",
+   "AvgRuralPopln": "11430946.73",
+   "LandArea": "2030709",
+   "AvgForestCover": "26.09650749",
+   "AvgAgriContrib": "2.623016064"
+ },
+ {
+   "CountryName": "Pacific island small states",
+   "AvgGDP": "7008653770",
+   "AvgArableLand": "3.709898675",
+   "AvgRuralPopln": "1401544.545",
+   "LandArea": "64200",
+   "AvgForestCover": "61.74352875",
+   "AvgAgriContrib": "15.78065741"
+ },
+ {
+   "CountryName": "Post-demographic dividend",
+   "AvgGDP": "4.25145E+13",
+   "AvgArableLand": "12.16495424",
+   "AvgRuralPopln": "217895760.3",
+   "LandArea": "31482667",
+   "AvgForestCover": "31.54955164",
+   "AvgAgriContrib": "1.458869013"
+ },
+ {
+   "CountryName": "Pre-demographic dividend",
+   "AvgGDP": "9.70156E+11",
+   "AvgArableLand": "8.789568627",
+   "AvgRuralPopln": "471539786.5",
+   "LandArea": "20167611",
+   "AvgForestCover": "26.78913739",
+   "AvgAgriContrib": "27.31894708"
+ },
+ {
+   "CountryName": "Small states",
+   "AvgGDP": "3.98239E+11",
+   "AvgArableLand": "2.055868063",
+   "AvgRuralPopln": "16837417.82",
+   "LandArea": "2499759",
+   "AvgForestCover": "36.5988921",
+   "AvgAgriContrib": "3.081924905"
+ },
+ {
+   "CountryName": "South Asia",
+   "AvgGDP": "1.92325E+12",
+   "AvgArableLand": "43.29775879",
+   "AvgRuralPopln": "1122375624",
+   "LandArea": "4771577",
+   "AvgForestCover": "17.26580313",
+   "AvgAgriContrib": "18.95529416"
+ },
+ {
+   "CountryName": "South Asia (IDA & IBRD)",
+   "AvgGDP": "1.92325E+12",
+   "AvgArableLand": "43.29775879",
+   "AvgRuralPopln": "1122375624",
+   "LandArea": "4771577",
+   "AvgForestCover": "17.26580313",
+   "AvgAgriContrib": "18.95529416"
+ },
+ {
+   "CountryName": "Sub-Saharan Africa",
+   "AvgGDP": "1.27482E+12",
+   "AvgArableLand": "8.611917262",
+   "AvgRuralPopln": "566657250.8",
+   "LandArea": "23618361",
+   "AvgForestCover": "26.5114021",
+   "AvgAgriContrib": "19.04785275"
+ },
+ {
+   "CountryName": "Sub-Saharan Africa (excluding high income)",
+   "AvgGDP": "1.27371E+12",
+   "AvgArableLand": "8.612058661",
+   "AvgRuralPopln": "566615415.8",
+   "LandArea": "23617901",
+   "AvgForestCover": "26.51019644",
+   "AvgAgriContrib": "19.06128438"
+ },
+ {
+   "CountryName": "Sub-Saharan Africa (IDA & IBRD countries)",
+   "AvgGDP": "1.27482E+12",
+   "AvgArableLand": "8.611917262",
+   "AvgRuralPopln": "566657250.8",
+   "LandArea": "23618361",
+   "AvgForestCover": "26.5114021",
+   "AvgAgriContrib": "19.04785275"
+ },
+ {
+   "CountryName": "Upper middle income",
+   "AvgGDP": "1.57241E+13",
+   "AvgArableLand": "8.775625726",
+   "AvgRuralPopln": "1005249555",
+   "LandArea": "59534441.8",
+   "AvgForestCover": "34.89588993",
+   "AvgAgriContrib": "7.498501955"
+ },
+ {
+   "CountryName": "World",
+   "AvgGDP": "6.57539E+13",
+   "AvgArableLand": "10.78927561",
+   "AvgRuralPopln": "3345886418",
+   "LandArea": "129758982.2",
+   "AvgForestCover": "30.95225224",
+   "AvgAgriContrib": "4.004229773"
+ },
+ {
+   "CountryName": "Afghanistan",
+   "AvgGDP": "14516852848",
+   "AvgArableLand": "11.9336458",
+   "AvgRuralPopln": "21217143.73",
+   "LandArea": "652860",
+   "AvgForestCover": "2.067824648",
+   "AvgAgriContrib": "26.59055143"
+ },
+ {
+   "CountryName": "Albania",
+   "AvgGDP": "11574059426",
+   "AvgArableLand": "21.96642336",
+   "AvgRuralPopln": "1404556.545",
+   "LandArea": "27400",
+   "AvgForestCover": "28.3450564",
+   "AvgAgriContrib": "20.99945462"
+ },
+ {
+   "CountryName": "Algeria",
+   "AvgGDP": "1.65652E+11",
+   "AvgArableLand": "3.145099669",
+   "AvgRuralPopln": "11756118.55",
+   "LandArea": "2381741",
+   "AvgForestCover": "0.76590294",
+   "AvgAgriContrib": "9.341438847"
+ },
+ {
+   "CountryName": "American Samoa",
+   "AvgGDP": "588363636.4",
+   "AvgArableLand": "15.28",
+   "AvgRuralPopln": "6990.363636",
+   "LandArea": "200",
+   "AvgForestCover": "88.55909091",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Andorra",
+   "AvgGDP": "3512859907",
+   "AvgArableLand": "5.29787234",
+   "AvgRuralPopln": "9785",
+   "LandArea": "470",
+   "AvgForestCover": "34.04255319",
+   "AvgAgriContrib": "0.485235256"
+ },
+ {
+   "CountryName": "Angola",
+   "AvgGDP": "86040327726",
+   "AvgArableLand": "3.264618593",
+   "AvgRuralPopln": "12714885.91",
+   "LandArea": "1246700",
+   "AvgForestCover": "46.90783669",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Antigua and Barbuda",
+   "AvgGDP": "1193320505",
+   "AvgArableLand": "9.090909091",
+   "AvgRuralPopln": "64288.18182",
+   "LandArea": "440",
+   "AvgForestCover": "22.27272727",
+   "AvgAgriContrib": "2.024260549"
+ },
+ {
+   "CountryName": "Argentina",
+   "AvgGDP": "4.16017E+11",
+   "AvgArableLand": "13.4890141",
+   "AvgRuralPopln": "3727478",
+   "LandArea": "2736690",
+   "AvgForestCover": "10.45968272",
+   "AvgAgriContrib": "7.848101832"
+ },
+ {
+   "CountryName": "Armenia",
+   "AvgGDP": "9462097983",
+   "AvgArableLand": "15.81173165",
+   "AvgRuralPopln": "1089938.909",
+   "LandArea": "28470",
+   "AvgForestCover": "11.64543219",
+   "AvgAgriContrib": "20.12893854"
+ },
+ {
+   "CountryName": "Aruba",
+   "AvgGDP": "2531324022",
+   "AvgArableLand": "11.11111111",
+   "AvgRuralPopln": "57986.90909",
+   "LandArea": "180",
+   "AvgForestCover": "2.333333333",
+   "AvgAgriContrib": "0.46388854"
+ },
+ {
+   "CountryName": "Australia",
+   "AvgGDP": "1.15469E+12",
+   "AvgArableLand": "6.005844604",
+   "AvgRuralPopln": "2478971.909",
+   "LandArea": "7682300",
+   "AvgForestCover": "16.25023519",
+   "AvgAgriContrib": "2.564625146"
+ },
+ {
+   "CountryName": "Austria",
+   "AvgGDP": "3.93718E+11",
+   "AvgArableLand": "16.53708571",
+   "AvgRuralPopln": "2864178.818",
+   "LandArea": "82580",
+   "AvgForestCover": "46.75405111",
+   "AvgAgriContrib": "1.45297648"
+ },
+ {
+   "CountryName": "Azerbaijan",
+   "AvgGDP": "49983057414",
+   "AvgArableLand": "22.73657024",
+   "AvgRuralPopln": "4199409.909",
+   "LandArea": "82663",
+   "AvgForestCover": "12.19977185",
+   "AvgAgriContrib": "6.542405683"
+ },
+ {
+   "CountryName": "Bahamas, The",
+   "AvgGDP": "8204499245",
+   "AvgArableLand": "0.779220779",
+   "AvgRuralPopln": "62739.27273",
+   "LandArea": "10010",
+   "AvgForestCover": "51.44855145",
+   "AvgAgriContrib": "2.159399835"
+ },
+ {
+   "CountryName": "Bahrain",
+   "AvgGDP": "26104096059",
+   "AvgArableLand": "1.963843242",
+   "AvgRuralPopln": "136477.3636",
+   "LandArea": "771",
+   "AvgForestCover": "0.690552865",
+   "AvgAgriContrib": "0.292404921"
+ },
+ {
+   "CountryName": "Bangladesh",
+   "AvgGDP": "1.1911E+11",
+   "AvgArableLand": "59.68502727",
+   "AvgRuralPopln": "105386768.2",
+   "LandArea": "130170",
+   "AvgForestCover": "11.07782131",
+   "AvgAgriContrib": "17.65141281"
+ },
+ {
+   "CountryName": "Barbados",
+   "AvgGDP": "4380945004",
+   "AvgArableLand": "28.13953488",
+   "AvgRuralPopln": "189630.4545",
+   "LandArea": "430",
+   "AvgForestCover": "14.65116279",
+   "AvgAgriContrib": "1.679013905"
+ },
+ {
+   "CountryName": "Belarus",
+   "AvgGDP": "54980910142",
+   "AvgArableLand": "27.35061637",
+   "AvgRuralPopln": "2421564.636",
+   "LandArea": "202910",
+   "AvgForestCover": "42.06400475",
+   "AvgAgriContrib": "9.426117852"
+ },
+ {
+   "CountryName": "Belgium",
+   "AvgGDP": "4.80687E+11",
+   "AvgArableLand": "27.42073976",
+   "AvgRuralPopln": "257288.5455",
+   "LandArea": "30280",
+   "AvgForestCover": "22.45346463",
+   "AvgAgriContrib": "0.8304542"
+ },
+ {
+   "CountryName": "Belize",
+   "AvgGDP": "1444368924",
+   "AvgArableLand": "3.231039018",
+   "AvgRuralPopln": "176817.9091",
+   "LandArea": "22810",
+   "AvgForestCover": "60.99972102",
+   "AvgAgriContrib": "14.14127598"
+ },
+ {
+   "CountryName": "Benin",
+   "AvgGDP": "7294331695",
+   "AvgArableLand": "23.03121674",
+   "AvgRuralPopln": "5518811.818",
+   "LandArea": "112760",
+   "AvgForestCover": "40.44874069",
+   "AvgAgriContrib": "26.16411469"
+ },
+ {
+   "CountryName": "Bermuda",
+   "AvgGDP": "5611135667",
+   "AvgArableLand": "6.6",
+   "AvgRuralPopln": "0",
+   "LandArea": "50",
+   "AvgForestCover": "20",
+   "AvgAgriContrib": "0.811334921"
+ },
+ {
+   "CountryName": "Bhutan",
+   "AvgGDP": "1498205140",
+   "AvgArableLand": "3.032767532",
+   "AvgRuralPopln": "466880.6364",
+   "LandArea": "38117",
+   "AvgForestCover": "70.97334284",
+   "AvgAgriContrib": "18.72839348"
+ },
+ {
+   "CountryName": "Bolivia",
+   "AvgGDP": "21407823036",
+   "AvgArableLand": "3.920659097",
+   "AvgRuralPopln": "3326851.091",
+   "LandArea": "1083300",
+   "AvgForestCover": "52.15872376",
+   "AvgAgriContrib": "13.29271054"
+ },
+ {
+   "CountryName": "Bosnia and Herzegovina",
+   "AvgGDP": "16585333996",
+   "AvgArableLand": "19.75",
+   "AvgRuralPopln": "2324007.182",
+   "LandArea": "51200",
+   "AvgForestCover": "42.67578125",
+   "AvgAgriContrib": "8.587436043"
+ },
+ {
+   "CountryName": "Botswana",
+   "AvgGDP": "12768170416",
+   "AvgArableLand": "0.487357295",
+   "AvgRuralPopln": "897854",
+   "LandArea": "566730",
+   "AvgForestCover": "20.06791754",
+   "AvgAgriContrib": "2.598527326"
+ },
+ {
+   "CountryName": "Brazil",
+   "AvgGDP": "1.88926E+12",
+   "AvgArableLand": "8.602884135",
+   "AvgRuralPopln": "31092095.55",
+   "LandArea": "8358140",
+   "AvgForestCover": "59.74693804",
+   "AvgAgriContrib": "5.142535567"
+ },
+ {
+   "CountryName": "British Virgin Islands",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "6.666666667",
+   "AvgRuralPopln": "14884",
+   "LandArea": "150",
+   "AvgForestCover": "24.26666667",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Brunei Darussalam",
+   "AvgGDP": "14345800185",
+   "AvgArableLand": "0.683111954",
+   "AvgRuralPopln": "96260.27273",
+   "LandArea": "5270",
+   "AvgForestCover": "72.57202001",
+   "AvgAgriContrib": "0.772701584"
+ },
+ {
+   "CountryName": "Bulgaria",
+   "AvgGDP": "49087569095",
+   "AvgArableLand": "29.78519107",
+   "AvgRuralPopln": "2053805.909",
+   "LandArea": "108640",
+   "AvgForestCover": "34.41628139",
+   "AvgAgriContrib": "5.789427681"
+ },
+ {
+   "CountryName": "Burkina Faso",
+   "AvgGDP": "9120991983",
+   "AvgArableLand": "20.50438596",
+   "AvgRuralPopln": "11616342",
+   "LandArea": "273600",
+   "AvgForestCover": "20.64792663",
+   "AvgAgriContrib": "35.84840759"
+ },
+ {
+   "CountryName": "Burundi",
+   "AvgGDP": "2078028280",
+   "AvgArableLand": "38.96417445",
+   "AvgRuralPopln": "8474608.091",
+   "LandArea": "25680",
+   "AvgForestCover": "9.331634098",
+   "AvgAgriContrib": "40.97662492"
+ },
+ {
+   "CountryName": "Cabo Verde",
+   "AvgGDP": "1610151091",
+   "AvgArableLand": "12.63027295",
+   "AvgRuralPopln": "188598.8182",
+   "LandArea": "4030",
+   "AvgForestCover": "21.33837131",
+   "AvgAgriContrib": "9.821341818"
+ },
+ {
+   "CountryName": "Cambodia",
+   "AvgGDP": "11940749862",
+   "AvgArableLand": "21.24405167",
+   "AvgRuralPopln": "11537394.73",
+   "LandArea": "176520",
+   "AvgForestCover": "57.183322",
+   "AvgAgriContrib": "33.36544372"
+ },
+ {
+   "CountryName": "Cameroon",
+   "AvgGDP": "24399293367",
+   "AvgArableLand": "12.86518161",
+   "AvgRuralPopln": "9985803.727",
+   "LandArea": "472710",
+   "AvgForestCover": "42.13153942",
+   "AvgAgriContrib": "22.67638302"
+ },
+ {
+   "CountryName": "Canada",
+   "AvgGDP": "1.57134E+12",
+   "AvgArableLand": "4.921652915",
+   "AvgRuralPopln": "6478376.273",
+   "LandArea": "9093510",
+   "AvgForestCover": "38.19352283",
+   "AvgAgriContrib": "1.631591515"
+ },
+ {
+   "CountryName": "Cayman Islands",
+   "AvgGDP": "3207032513",
+   "AvgArableLand": "0.833333333",
+   "AvgRuralPopln": "0",
+   "LandArea": "240",
+   "AvgForestCover": "52.91666667",
+   "AvgAgriContrib": "0.307553902"
+ },
+ {
+   "CountryName": "Central African Republic",
+   "AvgGDP": "1787656926",
+   "AvgArableLand": "2.996885935",
+   "AvgRuralPopln": "2721344.364",
+   "LandArea": "622980",
+   "AvgForestCover": "35.7122219",
+   "AvgAgriContrib": "51.66858749"
+ },
+ {
+   "CountryName": "Chad",
+   "AvgGDP": "10477811482",
+   "AvgArableLand": "3.649142313",
+   "AvgRuralPopln": "9323379.818",
+   "LandArea": "1259200",
+   "AvgForestCover": "4.374205845",
+   "AvgAgriContrib": "53.6209697"
+ },
+ {
+   "CountryName": "Channel Islands",
+   "AvgGDP": "10006017174",
+   "AvgArableLand": "21.02105263",
+   "AvgRuralPopln": "109813.1818",
+   "LandArea": "190",
+   "AvgForestCover": "4.210526316",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Chile",
+   "AvgGDP": "2.10359E+11",
+   "AvgArableLand": "1.769015994",
+   "AvgRuralPopln": "1945389.182",
+   "LandArea": "743532",
+   "AvgForestCover": "22.31193326",
+   "AvgAgriContrib": "3.683552544"
+ },
+ {
+   "CountryName": "China",
+   "AvgGDP": "6.51695E+12",
+   "AvgArableLand": "11.46492117",
+   "AvgRuralPopln": "679016868.7",
+   "LandArea": "9388211.8",
+   "AvgForestCover": "21.3725208",
+   "AvgAgriContrib": "9.832711034"
+ },
+ {
+   "CountryName": "Colombia",
+   "AvgGDP": "2.76105E+11",
+   "AvgArableLand": "1.605930599",
+   "AvgRuralPopln": "11437637.18",
+   "LandArea": "1109500",
+   "AvgForestCover": "53.20053259",
+   "AvgAgriContrib": "7.167414375"
+ },
+ {
+   "CountryName": "Comoros",
+   "AvgGDP": "528722360.1",
+   "AvgArableLand": "34.92745836",
+   "AvgRuralPopln": "504534.5455",
+   "LandArea": "1861",
+   "AvgForestCover": "21.10302379",
+   "AvgAgriContrib": "39.65231363"
+ },
+ {
+   "CountryName": "Congo, Dem. Rep.",
+   "AvgGDP": "22724018950",
+   "AvgArableLand": "3.032134271",
+   "AvgRuralPopln": "39659666",
+   "LandArea": "2267050",
+   "AvgForestCover": "67.98923711",
+   "AvgAgriContrib": "22.8497037"
+ },
+ {
+   "CountryName": "Congo, Rep.",
+   "AvgGDP": "10963033182",
+   "AvgArableLand": "1.502196193",
+   "AvgRuralPopln": "1488607.545",
+   "LandArea": "341500",
+   "AvgForestCover": "65.61160655",
+   "AvgAgriContrib": "4.417625168"
+ },
+ {
+   "CountryName": "Costa Rica",
+   "AvgGDP": "37310946670",
+   "AvgArableLand": "4.295142969",
+   "AvgRuralPopln": "1285048.273",
+   "LandArea": "51060",
+   "AvgForestCover": "51.21603817",
+   "AvgAgriContrib": "7.234581104"
+ },
+ {
+   "CountryName": "Cote d'Ivoire",
+   "AvgGDP": "25298151132",
+   "AvgArableLand": "9.056603774",
+   "AvgRuralPopln": "9984778.455",
+   "LandArea": "318000",
+   "AvgForestCover": "32.71383648",
+   "AvgAgriContrib": "23.25690732"
+ },
+ {
+   "CountryName": "Croatia",
+   "AvgGDP": "57381998154",
+   "AvgArableLand": "15.60418156",
+   "AvgRuralPopln": "1845082.727",
+   "LandArea": "55960",
+   "AvgForestCover": "34.23711742",
+   "AvgAgriContrib": "4.727649003"
+ },
+ {
+   "CountryName": "Cuba",
+   "AvgGDP": "66206612370",
+   "AvgArableLand": "31.98412443",
+   "AvgRuralPopln": "2648805.818",
+   "LandArea": "106863",
+   "AvgForestCover": "27.8028683",
+   "AvgAgriContrib": "3.879375937"
+ },
+ {
+   "CountryName": "Curacao",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "15013.90909",
+   "LandArea": "444",
+   "AvgForestCover": "#DIV/0!",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Cyprus",
+   "AvgGDP": "23808286747",
+   "AvgArableLand": "10.0508658",
+   "AvgRuralPopln": "357620.7273",
+   "LandArea": "9240",
+   "AvgForestCover": "18.70188902",
+   "AvgAgriContrib": "2.407729295"
+ },
+ {
+   "CountryName": "Czech Republic",
+   "AvgGDP": "1.96879E+11",
+   "AvgArableLand": "41.11542544",
+   "AvgRuralPopln": "2786349.091",
+   "LandArea": "77260",
+   "AvgForestCover": "34.40010204",
+   "AvgAgriContrib": "2.315316817"
+ },
+ {
+   "CountryName": "Denmark",
+   "AvgGDP": "3.21065E+11",
+   "AvgArableLand": "56.62652176",
+   "AvgRuralPopln": "731462.4545",
+   "LandArea": "42430",
+   "AvgForestCover": "13.83102622",
+   "AvgAgriContrib": "1.383206696"
+ },
+ {
+   "CountryName": "Djibouti",
+   "AvgGDP": "1169548271",
+   "AvgArableLand": "0.068593615",
+   "AvgRuralPopln": "191102.3636",
+   "LandArea": "23180",
+   "AvgForestCover": "0.241587575",
+   "AvgAgriContrib": "3.631854562"
+ },
+ {
+   "CountryName": "Dominica",
+   "AvgGDP": "469449484.8",
+   "AvgArableLand": "7.466666667",
+   "AvgRuralPopln": "22774.81818",
+   "LandArea": "750",
+   "AvgForestCover": "59.54666667",
+   "AvgAgriContrib": "14.43411854"
+ },
+ {
+   "CountryName": "Dominican Republic",
+   "AvgGDP": "52582416507",
+   "AvgArableLand": "16.68391637",
+   "AvgRuralPopln": "2603899.273",
+   "LandArea": "48310",
+   "AvgForestCover": "37.61690597",
+   "AvgAgriContrib": "6.347251068"
+ },
+ {
+   "CountryName": "Ecuador",
+   "AvgGDP": "72541320818",
+   "AvgArableLand": "4.775769045",
+   "AvgRuralPopln": "5565475.455",
+   "LandArea": "248360",
+   "AvgForestCover": "52.10805429",
+   "AvgAgriContrib": "9.779172462"
+ },
+ {
+   "CountryName": "Egypt, Arab Rep.",
+   "AvgGDP": "2.11726E+11",
+   "AvgArableLand": "2.730021598",
+   "AvgRuralPopln": "47033433.64",
+   "LandArea": "995450",
+   "AvgForestCover": "0.070319956",
+   "AvgAgriContrib": "12.9793469"
+ },
+ {
+   "CountryName": "El Salvador",
+   "AvgGDP": "21951600000",
+   "AvgArableLand": "33.11293436",
+   "AvgRuralPopln": "2157902.091",
+   "LandArea": "20720",
+   "AvgForestCover": "13.85135135",
+   "AvgAgriContrib": "11.69677564"
+ },
+ {
+   "CountryName": "Equatorial Guinea",
+   "AvgGDP": "16525252856",
+   "AvgArableLand": "4.420677362",
+   "AvgRuralPopln": "443896.1818",
+   "LandArea": "28050",
+   "AvgForestCover": "57.97763734",
+   "AvgAgriContrib": "1.261686764"
+ },
+ {
+   "CountryName": "Eritrea",
+   "AvgGDP": "1655603710",
+   "AvgArableLand": "6.702970297",
+   "AvgRuralPopln": "3601049.429",
+   "LandArea": "101000",
+   "AvgForestCover": "15.16831683",
+   "AvgAgriContrib": "21.52247574"
+ },
+ {
+   "CountryName": "Estonia",
+   "AvgGDP": "21501148627",
+   "AvgArableLand": "14.44326492",
+   "AvgRuralPopln": "424502.9091",
+   "LandArea": "42390",
+   "AvgForestCover": "52.80404898",
+   "AvgAgriContrib": "3.312782025"
+ },
+ {
+   "CountryName": "Ethiopia",
+   "AvgGDP": "34262849609",
+   "AvgArableLand": "14.31532",
+   "AvgRuralPopln": "72380890.82",
+   "LandArea": "1000000",
+   "AvgForestCover": "12.54336364",
+   "AvgAgriContrib": "45.29997077"
+ },
+ {
+   "CountryName": "Faroe Islands",
+   "AvgGDP": "2265498889",
+   "AvgArableLand": "2.148997135",
+   "AvgRuralPopln": "28618.36364",
+   "LandArea": "1396",
+   "AvgForestCover": "0.05730659",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Fiji",
+   "AvgGDP": "3625530548",
+   "AvgArableLand": "9.143951834",
+   "AvgRuralPopln": "413201",
+   "LandArea": "18270",
+   "AvgForestCover": "54.77369757",
+   "AvgAgriContrib": "12.30653195"
+ },
+ {
+   "CountryName": "Finland",
+   "AvgGDP": "2.51339E+11",
+   "AvgArableLand": "7.394753947",
+   "AvgRuralPopln": "881440.6364",
+   "LandArea": "304590",
+   "AvgForestCover": "73.0196354",
+   "AvgAgriContrib": "2.638586282"
+ },
+ {
+   "CountryName": "France",
+   "AvgGDP": "2.64241E+12",
+   "AvgArableLand": "33.42543333",
+   "AvgRuralPopln": "14067048.09",
+   "LandArea": "547557",
+   "AvgForestCover": "29.9960469",
+   "AvgAgriContrib": "1.732578908"
+ },
+ {
+   "CountryName": "French Polynesia",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "0.737704918",
+   "AvgRuralPopln": "117125.8182",
+   "LandArea": "3660",
+   "AvgForestCover": "40.48683557",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Gabon",
+   "AvgGDP": "14488597533",
+   "AvgArableLand": "1.261303217",
+   "AvgRuralPopln": "222345.5455",
+   "LandArea": "257670",
+   "AvgForestCover": "86.43896174",
+   "AvgAgriContrib": "4.489434275"
+ },
+ {
+   "CountryName": "Gambia, The",
+   "AvgGDP": "855043201.9",
+   "AvgArableLand": "38.94268775",
+   "AvgRuralPopln": "742073.4545",
+   "LandArea": "10120",
+   "AvgForestCover": "47.4038807",
+   "AvgAgriContrib": "25.44614415"
+ },
+ {
+   "CountryName": "Georgia",
+   "AvgGDP": "12402312785",
+   "AvgArableLand": "6.374154555",
+   "AvgRuralPopln": "1851264.364",
+   "LandArea": "69490",
+   "AvgForestCover": "40.42007352",
+   "AvgAgriContrib": "10.2411499"
+ },
+ {
+   "CountryName": "Germany",
+   "AvgGDP": "3.47165E+12",
+   "AvgArableLand": "34.07842301",
+   "AvgRuralPopln": "20959726.09",
+   "LandArea": "348900",
+   "AvgForestCover": "32.70659838",
+   "AvgAgriContrib": "0.788664466"
+ },
+ {
+   "CountryName": "Ghana",
+   "AvgGDP": "31640928315",
+   "AvgArableLand": "19.79432188",
+   "AvgRuralPopln": "11963964.91",
+   "LandArea": "227540",
+   "AvgForestCover": "40.41047728",
+   "AvgAgriContrib": "28.49142678"
+ },
+ {
+   "CountryName": "Gibraltar",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "0",
+   "LandArea": "10",
+   "AvgForestCover": "0",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Greece",
+   "AvgGDP": "2.75244E+11",
+   "AvgArableLand": "19.99456943",
+   "AvgRuralPopln": "2615167",
+   "LandArea": "128900",
+   "AvgForestCover": "30.27928627",
+   "AvgAgriContrib": "3.625534627"
+ },
+ {
+   "CountryName": "Greenland",
+   "AvgGDP": "2212523250",
+   "AvgArableLand": "0.002192715",
+   "AvgRuralPopln": "8754.636364",
+   "LandArea": "410450",
+   "AvgForestCover": "0.000535997",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Grenada",
+   "AvgGDP": "803389542.1",
+   "AvgArableLand": "7.647058824",
+   "AvgRuralPopln": "67352.45455",
+   "LandArea": "340",
+   "AvgForestCover": "49.97058824",
+   "AvgAgriContrib": "5.386827278"
+ },
+ {
+   "CountryName": "Guam",
+   "AvgGDP": "4897545455",
+   "AvgArableLand": "2.222222222",
+   "AvgRuralPopln": "9544.090909",
+   "LandArea": "540",
+   "AvgForestCover": "46.2962963",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Guatemala",
+   "AvgGDP": "44015946675",
+   "AvgArableLand": "11.57045539",
+   "AvgRuralPopln": "7455612.909",
+   "LandArea": "107160",
+   "AvgForestCover": "34.81964098",
+   "AvgAgriContrib": "11.91035681"
+ },
+ {
+   "CountryName": "Guinea",
+   "AvgGDP": "4923105623",
+   "AvgArableLand": "11.79838841",
+   "AvgRuralPopln": "7185925.909",
+   "LandArea": "245720",
+   "AvgForestCover": "26.63193879",
+   "AvgAgriContrib": "22.66418764"
+ },
+ {
+   "CountryName": "Guinea-Bissau",
+   "AvgGDP": "882186745.4",
+   "AvgArableLand": "10.31294452",
+   "AvgRuralPopln": "897331.7273",
+   "LandArea": "28120",
+   "AvgForestCover": "71.90611664",
+   "AvgAgriContrib": "45.73976073"
+ },
+ {
+   "CountryName": "Guyana",
+   "AvgGDP": "2262908386",
+   "AvgArableLand": "2.133604267",
+   "AvgRuralPopln": "540269.1818",
+   "LandArea": "196850",
+   "AvgForestCover": "84.17299744",
+   "AvgAgriContrib": "21.41548994"
+ },
+ {
+   "CountryName": "Haiti",
+   "AvgGDP": "6920371699",
+   "AvgArableLand": "36.92427431",
+   "AvgRuralPopln": "4800570.545",
+   "LandArea": "27560",
+   "AvgForestCover": "3.664731495",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Honduras",
+   "AvgGDP": "15541589973",
+   "AvgArableLand": "9.194744839",
+   "AvgRuralPopln": "3613686.182",
+   "LandArea": "111890",
+   "AvgForestCover": "46.40271695",
+   "AvgAgriContrib": "13.40302514"
+ },
+ {
+   "CountryName": "Hong Kong SAR, China",
+   "AvgGDP": "2.3963E+11",
+   "AvgArableLand": "3.552380952",
+   "AvgRuralPopln": "0",
+   "LandArea": "1050",
+   "AvgForestCover": "#DIV/0!",
+   "AvgAgriContrib": "0.061838428"
+ },
+ {
+   "CountryName": "Hungary",
+   "AvgGDP": "1.31564E+11",
+   "AvgArableLand": "49.86153852",
+   "AvgRuralPopln": "3111413.909",
+   "LandArea": "90530",
+   "AvgForestCover": "22.56229649",
+   "AvgAgriContrib": "4.177055768"
+ },
+ {
+   "CountryName": "Iceland",
+   "AvgGDP": "16103947538",
+   "AvgArableLand": "1.237705736",
+   "AvgRuralPopln": "20232.54545",
+   "LandArea": "100250",
+   "AvgForestCover": "0.426751304",
+   "AvgAgriContrib": "6.556084694"
+ },
+ {
+   "CountryName": "India",
+   "AvgGDP": "1.52568E+12",
+   "AvgArableLand": "52.98393308",
+   "AvgRuralPopln": "848390910.4",
+   "LandArea": "2973190",
+   "AvgForestCover": "23.36403905",
+   "AvgAgriContrib": "18.42318414"
+ },
+ {
+   "CountryName": "Indonesia",
+   "AvgGDP": "6.69395E+11",
+   "AvgArableLand": "12.71526908",
+   "AvgRuralPopln": "120905425.2",
+   "LandArea": "1811570",
+   "AvgForestCover": "52.12761206",
+   "AvgAgriContrib": "13.69305099"
+ },
+ {
+   "CountryName": "Iran, Islamic Rep.",
+   "AvgGDP": "4.19612E+11",
+   "AvgArableLand": "9.602765294",
+   "AvgRuralPopln": "21848310.18",
+   "LandArea": "1628760",
+   "AvgForestCover": "6.564490778",
+   "AvgAgriContrib": "7.394269706"
+ },
+ {
+   "CountryName": "Iraq",
+   "AvgGDP": "1.48448E+11",
+   "AvgArableLand": "10.39333951",
+   "AvgRuralPopln": "9660359.091",
+   "LandArea": "437370",
+   "AvgForestCover": "1.89470425",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Ireland",
+   "AvgGDP": "2.44689E+11",
+   "AvgArableLand": "15.96893598",
+   "AvgRuralPopln": "1713661.545",
+   "LandArea": "68890",
+   "AvgForestCover": "10.5236807",
+   "AvgAgriContrib": "1.123690967"
+ },
+ {
+   "CountryName": "Isle of Man",
+   "AvgGDP": "5497947651",
+   "AvgArableLand": "42.46842105",
+   "AvgRuralPopln": "40400.63636",
+   "LandArea": "570",
+   "AvgForestCover": "6.070175439",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Israel",
+   "AvgGDP": "2.32365E+11",
+   "AvgArableLand": "13.83641405",
+   "AvgRuralPopln": "622615.3636",
+   "LandArea": "21640",
+   "AvgForestCover": "7.267686103",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Italy",
+   "AvgGDP": "2.10456E+12",
+   "AvgArableLand": "24.22009927",
+   "AvgRuralPopln": "18778205.27",
+   "LandArea": "294140",
+   "AvgForestCover": "30.69286734",
+   "AvgAgriContrib": "2.141864669"
+ },
+ {
+   "CountryName": "Jamaica",
+   "AvgGDP": "13320274051",
+   "AvgArableLand": "11.27423823",
+   "AvgRuralPopln": "1266115.545",
+   "LandArea": "10830",
+   "AvgForestCover": "31.13153698",
+   "AvgAgriContrib": "6.371911703"
+ },
+ {
+   "CountryName": "Japan",
+   "AvgGDP": "5.13806E+12",
+   "AvgArableLand": "11.76122901",
+   "AvgRuralPopln": "12499036.18",
+   "LandArea": "364560",
+   "AvgForestCover": "68.45875478",
+   "AvgAgriContrib": "1.129172814"
+ },
+ {
+   "CountryName": "Jordan",
+   "AvgGDP": "25789770034",
+   "AvgArableLand": "2.1495476",
+   "AvgRuralPopln": "1132904.273",
+   "LandArea": "88780",
+   "AvgForestCover": "1.100664229",
+   "AvgAgriContrib": "3.259908659"
+ },
+ {
+   "CountryName": "Kazakhstan",
+   "AvgGDP": "1.52985E+11",
+   "AvgArableLand": "10.70282254",
+   "AvgRuralPopln": "7525552.636",
+   "LandArea": "2699700",
+   "AvgForestCover": "1.228520341",
+   "AvgAgriContrib": "5.49138958"
+ },
+ {
+   "CountryName": "Kenya",
+   "AvgGDP": "41972343186",
+   "AvgArableLand": "9.746986682",
+   "AvgRuralPopln": "30884600.27",
+   "LandArea": "569140",
+   "AvgForestCover": "7.432266226",
+   "AvgAgriContrib": "27.59549012"
+ },
+ {
+   "CountryName": "Kiribati",
+   "AvgGDP": "152075596.4",
+   "AvgArableLand": "2.469135802",
+   "AvgRuralPopln": "57542.09091",
+   "LandArea": "810",
+   "AvgForestCover": "15",
+   "AvgAgriContrib": "24.209498"
+ },
+ {
+   "CountryName": "Korea, Dem. People’s Rep.",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "19.64122581",
+   "AvgRuralPopln": "9732773.818",
+   "LandArea": "120410",
+   "AvgForestCover": "47.05136239",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Korea, Rep.",
+   "AvgGDP": "1.14103E+12",
+   "AvgArableLand": "15.90291278",
+   "AvgRuralPopln": "8926889.818",
+   "LandArea": "97480",
+   "AvgForestCover": "64.01023924",
+   "AvgAgriContrib": "2.57844759"
+ },
+ {
+   "CountryName": "Kosovo",
+   "AvgGDP": "5806453426",
+   "AvgArableLand": "27.5558005",
+   "AvgRuralPopln": "#DIV/0!",
+   "LandArea": "10887",
+   "AvgForestCover": "#DIV/0!",
+   "AvgAgriContrib": "15.27127443"
+ },
+ {
+   "CountryName": "Kuwait",
+   "AvgGDP": "1.31331E+11",
+   "AvgArableLand": "0.59315376",
+   "AvgRuralPopln": "52990.18182",
+   "LandArea": "17820",
+   "AvgForestCover": "0.340016325",
+   "AvgAgriContrib": "0.422065726"
+ },
+ {
+   "CountryName": "Kyrgyz Republic",
+   "AvgGDP": "5263567726",
+   "AvgArableLand": "6.66903024",
+   "AvgRuralPopln": "3549459.273",
+   "LandArea": "191800",
+   "AvgForestCover": "3.746279268",
+   "AvgAgriContrib": "22.83565195"
+ },
+ {
+   "CountryName": "Lao PDR",
+   "AvgGDP": "7430101461",
+   "AvgArableLand": "5.863084922",
+   "AvgRuralPopln": "4179689.182",
+   "LandArea": "230800",
+   "AvgForestCover": "77.19046794",
+   "AvgAgriContrib": "31.6280428"
+ },
+ {
+   "CountryName": "Latvia",
+   "AvgGDP": "27261467222",
+   "AvgArableLand": "18.89048749",
+   "AvgRuralPopln": "679821.5455",
+   "LandArea": "62240",
+   "AvgForestCover": "53.68685984",
+   "AvgAgriContrib": "3.68088875"
+ },
+ {
+   "CountryName": "Lebanon",
+   "AvgGDP": "35462960470",
+   "AvgArableLand": "12.63831867",
+   "AvgRuralPopln": "592086.8182",
+   "LandArea": "10230",
+   "AvgForestCover": "13.38220919",
+   "AvgAgriContrib": "4.624911714"
+ },
+ {
+   "CountryName": "Lesotho",
+   "AvgGDP": "2202189312",
+   "AvgArableLand": "10.13076416",
+   "AvgRuralPopln": "1517968.818",
+   "LandArea": "30360",
+   "AvgForestCover": "1.485207809",
+   "AvgAgriContrib": "5.902076185"
+ },
+ {
+   "CountryName": "Liberia",
+   "AvgGDP": "1316758282",
+   "AvgArableLand": "4.754983389",
+   "AvgRuralPopln": "2039094.909",
+   "LandArea": "96320",
+   "AvgForestCover": "44.94393688",
+   "AvgAgriContrib": "50.60392186"
+ },
+ {
+   "CountryName": "Libya",
+   "AvgGDP": "61350555438",
+   "AvgArableLand": "0.985598509",
+   "AvgRuralPopln": "1373202.364",
+   "LandArea": "1759540",
+   "AvgForestCover": "0.123327688",
+   "AvgAgriContrib": "2.068290658"
+ },
+ {
+   "CountryName": "Liechtenstein",
+   "AvgGDP": "5118036316",
+   "AvgArableLand": "20.6375",
+   "AvgRuralPopln": "30990.45455",
+   "LandArea": "160",
+   "AvgForestCover": "43.125",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Lithuania",
+   "AvgGDP": "40118916957",
+   "AvgArableLand": "33.1088319",
+   "AvgRuralPopln": "1032753.727",
+   "LandArea": "62680",
+   "AvgForestCover": "34.45523218",
+   "AvgAgriContrib": "3.852507557"
+ },
+ {
+   "CountryName": "Luxembourg",
+   "AvgGDP": "53395891416",
+   "AvgArableLand": "23.8015444",
+   "AvgRuralPopln": "58579.45455",
+   "LandArea": "2590",
+   "AvgForestCover": "33.47490347",
+   "AvgAgriContrib": "0.334327528"
+ },
+ {
+   "CountryName": "Macao SAR, China",
+   "AvgGDP": "31702448325",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "0",
+   "LandArea": "30.3",
+   "AvgForestCover": "#DIV/0!",
+   "AvgAgriContrib": "0"
+ },
+ {
+   "CountryName": "Macedonia, FYR",
+   "AvgGDP": "9330666724",
+   "AvgArableLand": "16.74598059",
+   "AvgRuralPopln": "884097.4545",
+   "LandArea": "25430",
+   "AvgForestCover": "39.26204664",
+   "AvgAgriContrib": "11.34141153"
+ },
+ {
+   "CountryName": "Madagascar",
+   "AvgGDP": "8674340563",
+   "AvgArableLand": "5.707914105",
+   "AvgRuralPopln": "14359961.18",
+   "LandArea": "581800",
+   "AvgForestCover": "21.67759484",
+   "AvgAgriContrib": "27.13595367"
+ },
+ {
+   "CountryName": "Malawi",
+   "AvgGDP": "5674062816",
+   "AvgArableLand": "37.22952906",
+   "AvgRuralPopln": "12532337.91",
+   "LandArea": "94280",
+   "AvgForestCover": "34.55085432",
+   "AvgAgriContrib": "32.00380985"
+ },
+ {
+   "CountryName": "Malaysia",
+   "AvgGDP": "2.50717E+11",
+   "AvgArableLand": "2.864617258",
+   "AvgRuralPopln": "8164300.091",
+   "LandArea": "328550",
+   "AvgForestCover": "66.37290574",
+   "AvgAgriContrib": "9.438419735"
+ },
+ {
+   "CountryName": "Maldives",
+   "AvgGDP": "2292327558",
+   "AvgArableLand": "12.16666667",
+   "AvgRuralPopln": "220888.3636",
+   "LandArea": "300",
+   "AvgForestCover": "3.333333333",
+   "AvgAgriContrib": "4.798603767"
+ },
+ {
+   "CountryName": "Mali",
+   "AvgGDP": "10625998229",
+   "AvgArableLand": "5.073750809",
+   "AvgRuralPopln": "9684419.455",
+   "LandArea": "1220190",
+   "AvgForestCover": "4.187872381",
+   "AvgAgriContrib": "37.36049119"
+ },
+ {
+   "CountryName": "Malta",
+   "AvgGDP": "8796959105",
+   "AvgArableLand": "26.65625",
+   "AvgRuralPopln": "22350.09091",
+   "LandArea": "320",
+   "AvgForestCover": "1.09375",
+   "AvgAgriContrib": "1.666153191"
+ },
+ {
+   "CountryName": "Marshall Islands",
+   "AvgGDP": "164891419.2",
+   "AvgArableLand": "11.11111111",
+   "AvgRuralPopln": "15043.09091",
+   "LandArea": "180",
+   "AvgForestCover": "70.22222222",
+   "AvgAgriContrib": "14.80440777"
+ },
+ {
+   "CountryName": "Mauritania",
+   "AvgGDP": "4209867262",
+   "AvgArableLand": "0.401668769",
+   "AvgRuralPopln": "1556133.364",
+   "LandArea": "1030700",
+   "AvgForestCover": "0.236776418",
+   "AvgAgriContrib": "23.01512836"
+ },
+ {
+   "CountryName": "Mauritius",
+   "AvgGDP": "10035232507",
+   "AvgArableLand": "39.06403941",
+   "AvgRuralPopln": "741722.4545",
+   "LandArea": "2030",
+   "AvgForestCover": "18.91625616",
+   "AvgAgriContrib": "4.436237028"
+ },
+ {
+   "CountryName": "Mexico",
+   "AvgGDP": "1.08947E+12",
+   "AvgArableLand": "12.01322513",
+   "AvgRuralPopln": "26244264.27",
+   "LandArea": "1943950",
+   "AvgForestCover": "34.22548747",
+   "AvgAgriContrib": "3.427750315"
+ },
+ {
+   "CountryName": "Micronesia, Fed. Sts.",
+   "AvgGDP": "288780609.1",
+   "AvgArableLand": "3.142857143",
+   "AvgRuralPopln": "81073.09091",
+   "LandArea": "700",
+   "AvgForestCover": "91.61298701",
+   "AvgAgriContrib": "27.27170328"
+ },
+ {
+   "CountryName": "Moldova",
+   "AvgGDP": "5903672730",
+   "AvgArableLand": "55.31081417",
+   "AvgRuralPopln": "1962246.545",
+   "LandArea": "32890",
+   "AvgForestCover": "11.74140509",
+   "AvgAgriContrib": "14.27427522"
+ },
+ {
+   "CountryName": "Monaco",
+   "AvgGDP": "5545711202",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "0",
+   "LandArea": "2",
+   "AvgForestCover": "#DIV/0!",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Mongolia",
+   "AvgGDP": "7892874548",
+   "AvgArableLand": "0.421972759",
+   "AvgRuralPopln": "883074.8182",
+   "LandArea": "1553560",
+   "AvgForestCover": "8.003810603",
+   "AvgAgriContrib": "16.82723288"
+ },
+ {
+   "CountryName": "Montenegro",
+   "AvgGDP": "3917034509",
+   "AvgArableLand": "10.14068567",
+   "AvgRuralPopln": "228271.3636",
+   "LandArea": "13450",
+   "AvgForestCover": "57.4112876",
+   "AvgAgriContrib": "9.703350218"
+ },
+ {
+   "CountryName": "Morocco",
+   "AvgGDP": "91416711356",
+   "AvgArableLand": "17.96609904",
+   "AvgRuralPopln": "13620893.73",
+   "LandArea": "446300",
+   "AvgForestCover": "12.51889271",
+   "AvgAgriContrib": "13.87024179"
+ },
+ {
+   "CountryName": "Mozambique",
+   "AvgGDP": "12195175458",
+   "AvgArableLand": "6.898700374",
+   "AvgRuralPopln": "16828847.36",
+   "LandArea": "786380",
+   "AvgForestCover": "49.58474853",
+   "AvgAgriContrib": "27.33419866"
+ },
+ {
+   "CountryName": "Myanmar",
+   "AvgGDP": "42999862537",
+   "AvgArableLand": "16.28229333",
+   "AvgRuralPopln": "35513985.45",
+   "LandArea": "653520",
+   "AvgForestCover": "48.14260717",
+   "AvgAgriContrib": "36.03307356"
+ },
+ {
+   "CountryName": "Namibia",
+   "AvgGDP": "10464616322",
+   "AvgArableLand": "0.974990587",
+   "AvgRuralPopln": "1288470.545",
+   "LandArea": "823290",
+   "AvgForestCover": "8.85471705",
+   "AvgAgriContrib": "8.704856413"
+ },
+ {
+   "CountryName": "Nauru",
+   "AvgGDP": "72883502.27",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "0",
+   "LandArea": "20",
+   "AvgForestCover": "0",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Nepal",
+   "AvgGDP": "15214534307",
+   "AvgArableLand": "15.26920126",
+   "AvgRuralPopln": "22391302.91",
+   "LandArea": "143350",
+   "AvgForestCover": "25.3644925",
+   "AvgAgriContrib": "34.95355161"
+ },
+ {
+   "CountryName": "Netherlands",
+   "AvgGDP": "8.26768E+11",
+   "AvgArableLand": "31.08255051",
+   "AvgRuralPopln": "2175135.091",
+   "LandArea": "33760",
+   "AvgForestCover": "11.0186588",
+   "AvgAgriContrib": "1.853979304"
+ },
+ {
+   "CountryName": "New Caledonia",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "0.359628009",
+   "AvgRuralPopln": "81987.09091",
+   "LandArea": "18280",
+   "AvgForestCover": "45.89715536",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "New Zealand",
+   "AvgGDP": "1.52228E+11",
+   "AvgArableLand": "1.821047435",
+   "AvgRuralPopln": "601026.5455",
+   "LandArea": "263310",
+   "AvgForestCover": "38.58569747",
+   "AvgAgriContrib": "6.067076548"
+ },
+ {
+   "CountryName": "Nicaragua",
+   "AvgGDP": "9248286208",
+   "AvgArableLand": "13.78095396",
+   "AvgRuralPopln": "2446788.091",
+   "LandArea": "120340",
+   "AvgForestCover": "26.66988986",
+   "AvgAgriContrib": "18.46656384"
+ },
+ {
+   "CountryName": "Niger",
+   "AvgGDP": "5842717891",
+   "AvgArableLand": "11.95271177",
+   "AvgRuralPopln": "13542248.64",
+   "LandArea": "1266700",
+   "AvgForestCover": "0.950501303",
+   "AvgAgriContrib": "40.10732914"
+ },
+ {
+   "CountryName": "Nigeria",
+   "AvgGDP": "3.25159E+11",
+   "AvgArableLand": "38.18746775",
+   "AvgRuralPopln": "90114937.36",
+   "LandArea": "910770",
+   "AvgForestCover": "9.926765265",
+   "AvgAgriContrib": "27.06330093"
+ },
+ {
+   "CountryName": "Northern Mariana Islands",
+   "AvgGDP": "867636363.6",
+   "AvgArableLand": "2.173913043",
+   "AvgRuralPopln": "5944.181818",
+   "LandArea": "460",
+   "AvgForestCover": "65.91106719",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Norway",
+   "AvgGDP": "4.31583E+11",
+   "AvgArableLand": "2.278136593",
+   "AvgRuralPopln": "1023250.455",
+   "LandArea": "365245",
+   "AvgForestCover": "33.1339238",
+   "AvgAgriContrib": "1.516206803"
+ },
+ {
+   "CountryName": "Oman",
+   "AvgGDP": "59340891358",
+   "AvgArableLand": "0.106494346",
+   "AvgRuralPopln": "790313.4545",
+   "LandArea": "309500",
+   "AvgForestCover": "0.006462036",
+   "AvgAgriContrib": "1.268079956"
+ },
+ {
+   "CountryName": "Pakistan",
+   "AvgGDP": "1.90854E+11",
+   "AvgArableLand": "38.94121005",
+   "AvgRuralPopln": "107858638.1",
+   "LandArea": "770880",
+   "AvgForestCover": "2.188408053",
+   "AvgAgriContrib": "24.01897805"
+ },
+ {
+   "CountryName": "Palau",
+   "AvgGDP": "212127272.7",
+   "AvgArableLand": "2.173913043",
+   "AvgRuralPopln": "3482.636364",
+   "LandArea": "460",
+   "AvgForestCover": "87.60869565",
+   "AvgAgriContrib": "4.460587897"
+ },
+ {
+   "CountryName": "Panama",
+   "AvgGDP": "32362708569",
+   "AvgArableLand": "7.439991929",
+   "AvgRuralPopln": "1261525.182",
+   "LandArea": "74340",
+   "AvgForestCover": "63.21324626",
+   "AvgAgriContrib": "4.239528426"
+ },
+ {
+   "CountryName": "Papua New Guinea",
+   "AvgGDP": "10316253505",
+   "AvgArableLand": "0.627125381",
+   "AvgRuralPopln": "5956826.545",
+   "LandArea": "452860",
+   "AvgForestCover": "74.13489218",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Paraguay",
+   "AvgGDP": "20388754210",
+   "AvgArableLand": "10.24213441",
+   "AvgRuralPopln": "2577513.364",
+   "LandArea": "397300",
+   "AvgForestCover": "42.59295701",
+   "AvgAgriContrib": "20.54437313"
+ },
+ {
+   "CountryName": "Peru",
+   "AvgGDP": "1.46487E+11",
+   "AvgArableLand": "3.1795",
+   "AvgRuralPopln": "6791246.727",
+   "LandArea": "1280000",
+   "AvgForestCover": "58.4203125",
+   "AvgAgriContrib": "7.546355491"
+ },
+ {
+   "CountryName": "Philippines",
+   "AvgGDP": "2.03647E+11",
+   "AvgArableLand": "18.08028977",
+   "AvgRuralPopln": "50983550.55",
+   "LandArea": "298170",
+   "AvgForestCover": "24.25157095",
+   "AvgAgriContrib": "12.14188306"
+ },
+ {
+   "CountryName": "Poland",
+   "AvgGDP": "4.64432E+11",
+   "AvgArableLand": "37.55279642",
+   "AvgRuralPopln": "14878976.36",
+   "LandArea": "306330",
+   "AvgForestCover": "30.44051495",
+   "AvgAgriContrib": "3.03804006"
+ },
+ {
+   "CountryName": "Portugal",
+   "AvgGDP": "2.27834E+11",
+   "AvgArableLand": "12.88418172",
+   "AvgRuralPopln": "4146206.818",
+   "LandArea": "91605",
+   "AvgForestCover": "35.37981777",
+   "AvgAgriContrib": "2.314193713"
+ },
+ {
+   "CountryName": "Puerto Rico",
+   "AvgGDP": "94854247258",
+   "AvgArableLand": "6.87373168",
+   "AvgRuralPopln": "226950.6364",
+   "LandArea": "8870",
+   "AvgForestCover": "54.04847802",
+   "AvgAgriContrib": "0.673557305"
+ },
+ {
+   "CountryName": "Qatar",
+   "AvgGDP": "1.31593E+11",
+   "AvgArableLand": "1.100775194",
+   "AvgRuralPopln": "21625.72727",
+   "LandArea": "11610",
+   "AvgForestCover": "0",
+   "AvgAgriContrib": "0.117706409"
+ },
+ {
+   "CountryName": "Romania",
+   "AvgGDP": "1.6949E+11",
+   "AvgArableLand": "38.50679204",
+   "AvgRuralPopln": "9421063.182",
+   "LandArea": "230170",
+   "AvgForestCover": "28.58649554",
+   "AvgAgriContrib": "6.495117183"
+ },
+ {
+   "CountryName": "Russian Federation",
+   "AvgGDP": "1.57492E+12",
+   "AvgArableLand": "7.403083139",
+   "AvgRuralPopln": "37657597.09",
+   "LandArea": "16381390",
+   "AvgForestCover": "49.6627822",
+   "AvgAgriContrib": "4.26699533"
+ },
+ {
+   "CountryName": "Rwanda",
+   "AvgGDP": "5675262436",
+   "AvgArableLand": "45.74434536",
+   "AvgRuralPopln": "7796819.455",
+   "LandArea": "24670",
+   "AvgForestCover": "17.78015256",
+   "AvgAgriContrib": "36.42346159"
+ },
+ {
+   "CountryName": "Samoa",
+   "AvgGDP": "666013067.8",
+   "AvgArableLand": "3.120141343",
+   "AvgRuralPopln": "148868",
+   "LandArea": "2830",
+   "AvgForestCover": "60.42402827",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "San Marino",
+   "AvgGDP": "1607966017",
+   "AvgArableLand": "16.66666667",
+   "AvgRuralPopln": "1808.090909",
+   "LandArea": "60",
+   "AvgForestCover": "0",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Sao Tome and Principe",
+   "AvgGDP": "221328924.5",
+   "AvgArableLand": "8.9375",
+   "AvgRuralPopln": "65212.63636",
+   "LandArea": "960",
+   "AvgForestCover": "56.51515152",
+   "AvgAgriContrib": "11.96334763"
+ },
+ {
+   "CountryName": "Saudi Arabia",
+   "AvgGDP": "5.58606E+11",
+   "AvgArableLand": "1.533104773",
+   "AvgRuralPopln": "5028013.545",
+   "LandArea": "2149690",
+   "AvgForestCover": "0.454484135",
+   "AvgAgriContrib": "2.385362384"
+ },
+ {
+   "CountryName": "Senegal",
+   "AvgGDP": "12787206693",
+   "AvgArableLand": "17.17238872",
+   "AvgRuralPopln": "7525388.364",
+   "LandArea": "192530",
+   "AvgForestCover": "44.00872591",
+   "AvgAgriContrib": "15.92629491"
+ },
+ {
+   "CountryName": "Serbia",
+   "AvgGDP": "40235084155",
+   "AvgArableLand": "29.90395609",
+   "AvgRuralPopln": "3261905.818",
+   "LandArea": "87460",
+   "AvgForestCover": "30.30268382",
+   "AvgAgriContrib": "10.00269646"
+ },
+ {
+   "CountryName": "Seychelles",
+   "AvgGDP": "1111365946",
+   "AvgArableLand": "1.352173913",
+   "AvgRuralPopln": "41835",
+   "LandArea": "460",
+   "AvgForestCover": "88.41304348",
+   "AvgAgriContrib": "2.95793384"
+ },
+ {
+   "CountryName": "Sierra Leone",
+   "AvgGDP": "3107109940",
+   "AvgArableLand": "20.99075921",
+   "AvgRuralPopln": "3560344.091",
+   "LandArea": "72180",
+   "AvgForestCover": "39.33852238",
+   "AvgAgriContrib": "54.8346431"
+ },
+ {
+   "CountryName": "Singapore",
+   "AvgGDP": "2.30919E+11",
+   "AvgArableLand": "0.891097628",
+   "AvgRuralPopln": "0",
+   "LandArea": "709",
+   "AvgForestCover": "23.31358535",
+   "AvgAgriContrib": "0.04275201"
+ },
+ {
+   "CountryName": "Sint Maarten (Dutch part)",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "0",
+   "LandArea": "34",
+   "AvgForestCover": "#DIV/0!",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Slovak Republic",
+   "AvgGDP": "88769711241",
+   "AvgArableLand": "28.8480173",
+   "AvgRuralPopln": "2447916.455",
+   "LandArea": "48100",
+   "AvgForestCover": "40.2841566",
+   "AvgAgriContrib": "3.668009589"
+ },
+ {
+   "CountryName": "Slovenia",
+   "AvgGDP": "46858166885",
+   "AvgArableLand": "9.029741807",
+   "AvgRuralPopln": "1018633.182",
+   "LandArea": "20140",
+   "AvgForestCover": "61.87595919",
+   "AvgAgriContrib": "2.18504997"
+ },
+ {
+   "CountryName": "Solomon Islands",
+   "AvgGDP": "774670959.9",
+   "AvgArableLand": "0.646659521",
+   "AvgRuralPopln": "420239.1818",
+   "LandArea": "27990",
+   "AvgForestCover": "79.06395141",
+   "AvgAgriContrib": "35.05459702"
+ },
+ {
+   "CountryName": "Somalia",
+   "AvgGDP": "5641333333",
+   "AvgArableLand": "1.751841107",
+   "AvgRuralPopln": "6006413.455",
+   "LandArea": "627340",
+   "AvgForestCover": "10.75493353",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "South Africa",
+   "AvgGDP": "3.30283E+11",
+   "AvgArableLand": "10.37853745",
+   "AvgRuralPopln": "19281395.9",
+   "LandArea": "1213090",
+   "AvgForestCover": "7.617736524",
+   "AvgAgriContrib": "2.644215319"
+ },
+ {
+   "CountryName": "South Sudan",
+   "AvgGDP": "13407414253",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "8310057.818",
+   "LandArea": "0",
+   "AvgForestCover": "#DIV/0!",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Spain",
+   "AvgGDP": "1.38376E+12",
+   "AvgArableLand": "25.06256042",
+   "AvgRuralPopln": "9899386.182",
+   "LandArea": "500210",
+   "AvgForestCover": "36.09077889",
+   "AvgAgriContrib": "2.596946995"
+ },
+ {
+   "CountryName": "Sri Lanka",
+   "AvgGDP": "54084410545",
+   "AvgArableLand": "18.81677563",
+   "AvgRuralPopln": "16443092",
+   "LandArea": "62710",
+   "AvgForestCover": "33.45703889",
+   "AvgAgriContrib": "8.753681816"
+ },
+ {
+   "CountryName": "St. Kitts and Nevis",
+   "AvgGDP": "729138703.7",
+   "AvgArableLand": "17.09230769",
+   "AvgRuralPopln": "35661.45455",
+   "LandArea": "260",
+   "AvgForestCover": "42.30769231",
+   "AvgAgriContrib": "1.514503527"
+ },
+ {
+   "CountryName": "St. Lucia",
+   "AvgGDP": "1226968219",
+   "AvgArableLand": "4.491803279",
+   "AvgRuralPopln": "141742.0909",
+   "LandArea": "610",
+   "AvgForestCover": "33.7704918",
+   "AvgAgriContrib": "3.295598791"
+ },
+ {
+   "CountryName": "St. Martin (French part)",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "#DIV/0!",
+   "LandArea": "54.4",
+   "AvgForestCover": "18.38235294",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "St. Vincent and the Grenadines",
+   "AvgGDP": "677024868.7",
+   "AvgArableLand": "12.82051282",
+   "AvgRuralPopln": "55933.54545",
+   "LandArea": "390",
+   "AvgForestCover": "68.53146853",
+   "AvgAgriContrib": "7.033649487"
+ },
+ {
+   "CountryName": "Sudan",
+   "AvgGDP": "60762123864",
+   "AvgArableLand": "8.216731481",
+   "AvgRuralPopln": "24115871.09",
+   "LandArea": "2376000",
+   "AvgForestCover": "10.09504668",
+   "AvgAgriContrib": "31.97349643"
+ },
+ {
+   "CountryName": "Suriname",
+   "AvgGDP": "4002482195",
+   "AvgArableLand": "0.345512821",
+   "AvgRuralPopln": "174193.5455",
+   "LandArea": "156000",
+   "AvgForestCover": "98.40559441",
+   "AvgAgriContrib": "9.807743584"
+ },
+ {
+   "CountryName": "Swaziland",
+   "AvgGDP": "4003830338",
+   "AvgArableLand": "10.24418605",
+   "AvgRuralPopln": "936282.9091",
+   "LandArea": "17200",
+   "AvgForestCover": "32.74841438",
+   "AvgAgriContrib": "7.418839749"
+ },
+ {
+   "CountryName": "Sweden",
+   "AvgGDP": "4.98558E+11",
+   "AvgArableLand": "6.41407435",
+   "AvgRuralPopln": "1401176.273",
+   "LandArea": "410340",
+   "AvgForestCover": "68.694515",
+   "AvgAgriContrib": "1.449796156"
+ },
+ {
+   "CountryName": "Switzerland",
+   "AvgGDP": "5.82375E+11",
+   "AvgArableLand": "10.24437985",
+   "AvgRuralPopln": "2061749.818",
+   "LandArea": "39518",
+   "AvgForestCover": "31.25985221",
+   "AvgAgriContrib": "0.776395466"
+ },
+ {
+   "CountryName": "Syrian Arab Republic",
+   "AvgGDP": "34198938700",
+   "AvgArableLand": "25.47991066",
+   "AvgRuralPopln": "8649348.182",
+   "LandArea": "183640",
+   "AvgForestCover": "2.629334891",
+   "AvgAgriContrib": "18.88452587"
+ },
+ {
+   "CountryName": "Tajikistan",
+   "AvgGDP": "5854296911",
+   "AvgArableLand": "5.313000228",
+   "AvgRuralPopln": "5587020.273",
+   "LandArea": "139960",
+   "AvgForestCover": "2.937830865",
+   "AvgAgriContrib": "24.49720705"
+ },
+ {
+   "CountryName": "Tanzania",
+   "AvgGDP": "32319777496",
+   "AvgArableLand": "13.17743283",
+   "AvgRuralPopln": "32872279.45",
+   "LandArea": "885800",
+   "AvgForestCover": "54.14109485",
+   "AvgAgriContrib": "31.38274724"
+ },
+ {
+   "CountryName": "Thailand",
+   "AvgGDP": "3.25016E+11",
+   "AvgArableLand": "30.97437805",
+   "AvgRuralPopln": "37392889.45",
+   "LandArea": "510890",
+   "AvgForestCover": "31.80581481",
+   "AvgAgriContrib": "10.20347359"
+ },
+ {
+   "CountryName": "Timor-Leste",
+   "AvgGDP": "960974418.2",
+   "AvgArableLand": "10.6926698",
+   "AvgRuralPopln": "754799.6364",
+   "LandArea": "14870",
+   "AvgForestCover": "49.89912576",
+   "AvgAgriContrib": "23.09290906"
+ },
+ {
+   "CountryName": "Togo",
+   "AvgGDP": "3328649332",
+   "AvgArableLand": "44.3463872",
+   "AvgRuralPopln": "3995658.091",
+   "LandArea": "54390",
+   "AvgForestCover": "5.276705277",
+   "AvgAgriContrib": "37.40677387"
+ },
+ {
+   "CountryName": "Tonga",
+   "AvgGDP": "374269713.7",
+   "AvgArableLand": "23.33333333",
+   "AvgRuralPopln": "79434.54545",
+   "LandArea": "720",
+   "AvgForestCover": "12.5",
+   "AvgAgriContrib": "19.20366683"
+ },
+ {
+   "CountryName": "Trinidad and Tobago",
+   "AvgGDP": "22954150022",
+   "AvgArableLand": "4.873294347",
+   "AvgRuralPopln": "1207408.091",
+   "LandArea": "5130",
+   "AvgForestCover": "44.75349991",
+   "AvgAgriContrib": "0.494686905"
+ },
+ {
+   "CountryName": "Tunisia",
+   "AvgGDP": "42331876500",
+   "AvgArableLand": "18.04261071",
+   "AvgRuralPopln": "3626096.273",
+   "LandArea": "155360",
+   "AvgForestCover": "6.330165715",
+   "AvgAgriContrib": "9.407671167"
+ },
+ {
+   "CountryName": "Turkey",
+   "AvgGDP": "6.94601E+11",
+   "AvgArableLand": "27.99734938",
+   "AvgRuralPopln": "21292450",
+   "LandArea": "769630",
+   "AvgForestCover": "14.54606877",
+   "AvgAgriContrib": "8.949396837"
+ },
+ {
+   "CountryName": "Turkmenistan",
+   "AvgGDP": "25098048124",
+   "AvgArableLand": "4.213393484",
+   "AvgRuralPopln": "2600807.545",
+   "LandArea": "469930",
+   "AvgForestCover": "8.782159045",
+   "AvgAgriContrib": "14.73212696"
+ },
+ {
+   "CountryName": "Turks and Caicos Islands",
+   "AvgGDP": "#DIV/0!",
+   "AvgArableLand": "1.052631579",
+   "AvgRuralPopln": "3006.545455",
+   "LandArea": "950",
+   "AvgForestCover": "36.21052632",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "Tuvalu",
+   "AvgGDP": "31675476.67",
+   "AvgArableLand": "#DIV/0!",
+   "AvgRuralPopln": "4438.909091",
+   "LandArea": "30",
+   "AvgForestCover": "33.33333333",
+   "AvgAgriContrib": "24.35435543"
+ },
+ {
+   "CountryName": "Uganda",
+   "AvgGDP": "18917728259",
+   "AvgArableLand": "32.79543104",
+   "AvgRuralPopln": "28431889.45",
+   "LandArea": "200520",
+   "AvgForestCover": "13.75474605",
+   "AvgAgriContrib": "26.32273813"
+ },
+ {
+   "CountryName": "Ukraine",
+   "AvgGDP": "1.37838E+11",
+   "AvgArableLand": "56.07100118",
+   "AvgRuralPopln": "14390881.64",
+   "LandArea": "579380",
+   "AvgForestCover": "16.54528848",
+   "AvgAgriContrib": "9.580389485"
+ },
+ {
+   "CountryName": "United Arab Emirates",
+   "AvgGDP": "3.08956E+11",
+   "AvgArableLand": "0.565191388",
+   "AvgRuralPopln": "1199881.818",
+   "LandArea": "83600",
+   "AvgForestCover": "3.795454545",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "United Kingdom",
+   "AvgGDP": "2.70509E+12",
+   "AvgArableLand": "25.09192742",
+   "AvgRuralPopln": "11732087.55",
+   "LandArea": "241930",
+   "AvgForestCover": "12.69713629",
+   "AvgAgriContrib": "0.664153576"
+ },
+ {
+   "CountryName": "United States",
+   "AvgGDP": "1.5393E+13",
+   "AvgArableLand": "17.22876565",
+   "AvgRuralPopln": "59349804.45",
+   "LandArea": "9161920",
+   "AvgForestCover": "33.65782897",
+   "AvgAgriContrib": "1.210094377"
+ },
+ {
+   "CountryName": "Uruguay",
+   "AvgGDP": "39100202905",
+   "AvgArableLand": "11.23163067",
+   "AvgRuralPopln": "189605.3636",
+   "LandArea": "175020",
+   "AvgForestCover": "9.742730701",
+   "AvgAgriContrib": "9.174200619"
+ },
+ {
+   "CountryName": "Uzbekistan",
+   "AvgGDP": "40120461692",
+   "AvgArableLand": "10.2538787",
+   "AvgRuralPopln": "18211534.82",
+   "LandArea": "425400",
+   "AvgForestCover": "7.676667949",
+   "AvgAgriContrib": "21.89281187"
+ },
+ {
+   "CountryName": "Vanuatu",
+   "AvgGDP": "655693068.7",
+   "AvgArableLand": "1.640689089",
+   "AvgRuralPopln": "178222",
+   "LandArea": "12190",
+   "AvgForestCover": "36.09515997",
+   "AvgAgriContrib": "25.16436383"
+ },
+ {
+   "CountryName": "Venezuela, RB",
+   "AvgGDP": "2.96364E+11",
+   "AvgArableLand": "3.034861969",
+   "AvgRuralPopln": "3251358.273",
+   "LandArea": "882050",
+   "AvgForestCover": "53.66764407",
+   "AvgAgriContrib": "5.040327023"
+ },
+ {
+   "CountryName": "Vietnam",
+   "AvgGDP": "1.2408E+11",
+   "AvgArableLand": "20.54590899",
+   "AvgRuralPopln": "60477011.64",
+   "LandArea": "310070",
+   "AvgForestCover": "45.20680081",
+   "AvgAgriContrib": "20.50113517"
+ },
+ {
+   "CountryName": "Virgin Islands (U.S.)",
+   "AvgGDP": "4184090909",
+   "AvgArableLand": "3.142857143",
+   "AvgRuralPopln": "5781.636364",
+   "LandArea": "350",
+   "AvgForestCover": "51.89350649",
+   "AvgAgriContrib": "#DIV/0!"
+ },
+ {
+   "CountryName": "West Bank and Gaza",
+   "AvgGDP": "8882795067",
+   "AvgArableLand": "11.11046512",
+   "AvgRuralPopln": "989251.6364",
+   "LandArea": "6020",
+   "AvgForestCover": "1.523255814",
+   "AvgAgriContrib": "6.260648627"
+ },
+ {
+   "CountryName": "Yemen, Rep.",
+   "AvgGDP": "29995034542",
+   "AvgArableLand": "2.394643635",
+   "AvgRuralPopln": "16086115.27",
+   "LandArea": "527970",
+   "AvgForestCover": "1.039831809",
+   "AvgAgriContrib": "10.78105414"
+ },
+ {
+   "CountryName": "Zambia",
+   "AvgGDP": "19451310468",
+   "AvgArableLand": "4.518624141",
+   "AvgRuralPopln": "8558968.818",
+   "LandArea": "743390",
+   "AvgForestCover": "66.54380608",
+   "AvgAgriContrib": "10.91758986"
+ },
+ {
+   "CountryName": "Zimbabwe",
+   "AvgGDP": "9449206445",
+   "AvgArableLand": "10.482099",
+   "AvgRuralPopln": "9426404.909",
+   "LandArea": "386850",
+   "AvgForestCover": "40.43921182",
+   "AvgAgriContrib": "15.93301257"
+ }
+]
