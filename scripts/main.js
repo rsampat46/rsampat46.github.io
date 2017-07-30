@@ -13,12 +13,12 @@ var load_state =
   "Page3Part4" : false
 }
 
-d3.json('data/countrydata.json',function(e,d2){
+d3.json('data/10yravg.json',function(e,d2){
 
   // console.log(e);
   CountryData = d2;
 
-  d3.json('/data/continent_data.json',function(e,d){
+  d3.json('/data/country_continent.json',function(e,d){
     Country_continent_code = d;
     proc_data();
   });
