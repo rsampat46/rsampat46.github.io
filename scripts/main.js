@@ -85,13 +85,13 @@ d3.json('data/10yravg.json',function(e,d2){
       .text("Sepal Length (cm)")
 
   svg.selectAll(".dot")
-      .data(data)
+      .data(CountryData)
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", 3.5)
-      .attr("cx", function(d) { return x(d.sepalWidth); })
-      .attr("cy", function(d) { return y(d.sepalLength); })
-      .style("fill", function(d) { return color(d.species); });
+      .attr("cx", function(d) { return x(d.AvgGDP); })
+      .attr("cy", function(d) { return y(d.AvgArableLand); });
+      //.style("fill", function(d) { return color(d.species); });
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())
