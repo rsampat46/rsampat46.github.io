@@ -47,7 +47,7 @@ d3.json('data/10yravg.json',function(e,d2){
   //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
   var x_new = d3.scale.log().base(Math.E)
                 .domain([gdp_range[0],gdp_range[1]]).nice()
-                .range([1000000000,10000000000000]);
+                .range([gdp_range[0],gdp_range[1]]);
   var arableland_range = d3.extent(arableland);
   var y_new = d3.scale.linear()
                 .domain([arableland_range[0],arableland_range[1]]).nice()
