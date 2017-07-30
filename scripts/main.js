@@ -60,11 +60,11 @@ d3.json('data/10yravg.json',function(e,d2){
   });
  var gdp_range = d3.extent(gdparr);
   //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
-  var x_new = d3.scaleLog()
+  var x_new = d3.scale.log()
                 .domain([gdp_range[0],gdp_range[1]]).nice()
                 .range([0,width]);
   var arableland_range = d3.extent(arableland);
-  var y_new = d3.scaleLinear()
+  var y_new = d3.scale.linear()
                 .domain([arableland_range[0],arableland_range[1]]).nice()
                 .range([0,height]);
 
