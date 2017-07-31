@@ -120,7 +120,7 @@ var yAxis = d3.svg.axis()
       .attr("x", width - 18)
       .attr("width", 18)
       .attr("height", 18)
-      .style("fill", color);
+      .style("fill", color(d.continent));
 
   legend.append("text")
       .attr("x", width - 24)
