@@ -114,15 +114,13 @@ var yAxis = d3.svg.axis()
       .data(color.domain())
     .enter().append("g")
       .attr("class", "legend")
-      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
-  legend.append("rect")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
+      .append("rect")
       .attr("x", width - 18)
       .attr("width", 18)
       .attr("height", 18)
-      .style("fill", color(d.continent));
-
-  legend.append("text")
+      .style("fill", color(d.continent))
+      .append("text")
       .attr("x", width - 24)
       .attr("y", 9)
       .attr("dy", ".35em")
