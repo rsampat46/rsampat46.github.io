@@ -82,9 +82,7 @@ var tooltip = d3.select("svg").append("div")
                   .style("opacity", 0);
 				  
 				
-          var x = d3.mouse(this)[0] + 120;
-          var y =  d3.mouse(this)[1];
-
+          
               // tooltip mouseover event handler
               var tipMouseover = function(d) {
                   //var color = colorScale(d.manufacturer);
@@ -93,8 +91,8 @@ var tooltip = d3.select("svg").append("div")
                               
 
                   tooltip.html(html)
-                      .style("left",  x + 'px')//(d3.event.pageX + 15) + "px")
-                      .style("top", y + 'px')//(d3.event.pageY - 28) + "px")
+                      .style("left",  (d3.event.pageX + 15) + "px")
+                      .style("top", (d3.event.pageY - 28) + "px")
                     .transition()
                       .duration(200) // ms
                       .style("opacity", .9) // started as 0!
