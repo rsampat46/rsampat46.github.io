@@ -61,7 +61,7 @@ d3.json('data/10yravg.json',function(e,d2){
  alert(gdp_range[0]);
  alert(gdp_range[1]);
   var x_new = d3.scale.log()
-                .domain([gdp_range[0],gdp_range[1]])
+                .domain([1,gdp_range[1]])
                 .range([0,width]);
   var arableland_range = d3.extent(arableland);
   var y_new = d3.scale.linear()
