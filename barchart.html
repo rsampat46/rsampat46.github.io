@@ -56,12 +56,13 @@ d3.csv("data/ruralurbanavg.csv", function(d, i, columns) {
 
   g.append("g")
       .attr("class", "axis")
-      .attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(0," + y(0) + ")")
       .call(d3.axisBottom(x));
 
   g.append("g")
-      .attr("class", "axis")
-      .call(d3.axisLeft(y).ticks(null, "s"))
+	.attr("transform", "translate(" + margin.left + ",0)")
+      //.attr("class", "axis")
+      .call(d3.axisLeft(y))
     .append("text")
       .attr("x", 2)
       .attr("y", y(y.ticks().pop()) + 0.5)
