@@ -29,7 +29,7 @@
       
       d3.json("world-110m2.json", function(error, topology) {
           g.selectAll("path")
-            .data(topojson.object(topology, topology.objects.countries)
+            .data(topojson.feature(topology, topology.objects.countries)
                 .geometries)
           .enter()
             .append("path")
