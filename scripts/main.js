@@ -39,7 +39,7 @@ var load_state =
 
 d3.json('data/10yravg.json',function(e,d2){
 
-  // console.log(e);
+  console.log(e);
   CountryData = d2;
   CountryData.forEach(function(d) {
 	  d.AvgRuralPopln = +d.AvgRuralPopln;
