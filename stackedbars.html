@@ -38,7 +38,7 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
 
   data.sort(function(a, b) { return b.total - a.total; });
   x.domain(data.map(function(d) { return d.CountryName; }));
-  y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
+  y.domain([1000, d3.max(data, function(d) { return d.total; })]).nice();
   z.domain(keys);
 
   g.append("g")
@@ -57,7 +57,12 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
   g.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+      .call(d3.axisBottom(x))
+	  .selectAll("text")	
+        .style("text-anchor", "end")
+        .attr("dx", "-.8em")
+        .attr("dy", ".15em")
+        .attr("transform", "rotate(-65)");
 
   g.append("g")
       .attr("class", "axis")
