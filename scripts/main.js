@@ -68,7 +68,7 @@ d3.json('data/10yravg.json',function(e,d2){
   //y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
 var xAxis = d3.svg.axis()
     .scale(x_new)
-	.tickValues([1000000000,  100000000000,  10000000000000])
+	.tickValues([100000,  10000000,  1000000000])
     .orient("bottom");
 
 var yAxis = d3.svg.axis()
