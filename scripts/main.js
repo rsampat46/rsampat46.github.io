@@ -77,7 +77,31 @@ var yAxis = d3.svg.axis()
     .scale(y_new)
 	.tickValues([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
     .orient("left");
+var tooltip = d3.select("svg").append("div")
+                  .attr("class", "tooltip")
+                  .style("opacity", 0);
 
+              // tooltip mouseover event handler
+              var tipMouseover = function(d) {
+                  //var color = colorScale(d.manufacturer);
+                  var html  = d.CountryName + "<br/>" +
+                              "<span style='color:black;'>" + d.AvgRuralPopln + "</span><br/>" +
+                              "<b>" + d.LandArea + "</b> , <b/>" + d.AvgArableLand + "</b> % arable";
+
+                  tooltip.html(html)
+                      .style("left", (d3.event.pageX + 15) + "px")
+                      .style("top", (d3.event.pageY - 28) + "px")
+                    .transition()
+                      .duration(200) // ms
+                      .style("opacity", .9) // started as 0!
+
+              };
+              // tooltip mouseout event handler
+              var tipMouseout = function(d) {
+                  tooltip.transition()
+                      .duration(300) // ms
+                      .style("opacity", 0); // don't care about position!
+              };
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
@@ -108,7 +132,9 @@ var yAxis = d3.svg.axis()
 	  .attr("cx",function(d) { var retval=0; if(d.AvgGDP === 0) { retval=0;}else{retval=x_new(d.AvgGDP);} return retval; })
       //.attr("cx", function(d) { return x(d.AvgGDP); })
       .attr("cy", function(d) { return y_new(d.AvgArableLand); })
-      .style("fill", function(d){return color(d.continent);});// { retcol="blue"; if(d.continent === "Asia"){ retcol="pink";}else if(d.continent === "Africa"){ retcol="red";}return retcol; });
+      .style("fill", function(d){return color(d.continent);})
+	  .on("mouseover", tipMouseover)
+      .on("mouseout", tipMouseout);
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())
