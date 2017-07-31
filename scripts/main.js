@@ -103,8 +103,8 @@ var yAxis = d3.svg.axis()
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", 3.5)
-	  .attr("cx",function(d) { return x(d.AvgGDP);  })      
-      .attr("cy", function(d) { return y(d.AvgArableLand); })
+	  .attr("cx",function(d) { return x(d.AvgGDP/100000);  })      
+      .attr("cy", function(d) { return y(d.AvgArableLand/100); })
       .style("fill", function(d) { return color(d.continent); });
 
   var legend = svg.selectAll(".legend")
