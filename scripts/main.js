@@ -51,8 +51,11 @@ d3.json('data/10yravg.json',function(e,d2){
 	  d.LandArea = +d.LandArea;
 	  landarea.push(d.landarea);
   });
+  var pop_range = d3.extent(population);
+  var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
+ 
  var gdp_range = d3.extent(gdparr);
-  //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
+ 
   var x_new = d3.scale.log().base(Math.E)
                 .domain([gdp_range[0],gdp_range[1]]).nice()
                 .range([0,width]);
@@ -100,7 +103,7 @@ var yAxis = d3.svg.axis()
       .data(CountryData)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", 3.5)
+      .attr("r", function(d) { return circle_size(d.Population);})
 	  .attr("cx",function(d) { return x_new(d.AvgGDP);  })
       //.attr("cx", function(d) { return x(d.AvgGDP); })
       .attr("cy", function(d) { return y_new(d.AvgArableLand); });
