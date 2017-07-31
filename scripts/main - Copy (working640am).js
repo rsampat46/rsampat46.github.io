@@ -50,8 +50,6 @@ d3.json('data/10yravg.json',function(e,d2){
 	  arableland.push(d.AvgArableLand);
 	  d.LandArea = +d.LandArea;
 	  landarea.push(d.landarea);
-	  d.continent = +d.continent;
-	  Country_continent_code.push(d.continent);
   });
  var gdp_range = d3.extent(gdparr);
   //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
@@ -106,7 +104,7 @@ var yAxis = d3.svg.axis()
 	  .attr("cx",function(d) { return x_new(d.AvgGDP);  })
       //.attr("cx", function(d) { return x(d.AvgGDP); })
       .attr("cy", function(d) { return y_new(d.AvgArableLand); });
-      .style("fill", function(d) { return color(d.continent); });
+      //.style("fill", function(d) { return color(d.species); });
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())
