@@ -86,7 +86,7 @@ var tooltip = d3.select("svg").append("div")
               // tooltip mouseover event handler
               var tipMouseover = function(d) {
                   //var color = colorScale(d.manufacturer);
-                  var html  = "Country Name : " + d['CountryName'] + "<br/>"; 
+                  var html  = "Country Name : " + d['CountryName'] + "<br/>" + "AvgGDP : " + d.AvgGDP + "<br/>"; 
                               
 
                   tooltip.html(html)
