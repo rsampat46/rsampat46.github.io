@@ -38,7 +38,7 @@ var load_state =
   var arableland = new Array();
   var landarea = new Array();
 
-d3.json('data/10yravg.json',function(e,d2){
+d3.json('data/10yravgcleaned.json',function(e,d2){
 
   // console.log(e);
   CountryData = d2;
