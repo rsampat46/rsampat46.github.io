@@ -127,7 +127,7 @@ var yAxis = d3.svg.axis()
       .attr("y", 9)
       .attr("dy", ".35em")
       .style("text-anchor", "end")
-      .text(function(d) { return d; });
+      .text(function(d) { return d.continent; });
 
 });
   
