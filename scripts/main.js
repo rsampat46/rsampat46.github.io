@@ -43,7 +43,7 @@ d3.json('data/10yravg.json',function(e,d2){
   CountryData = d2;
   CountryData.forEach(function(d) {
 	  d.AvgRuralPopln = +d.AvgRuralPopln;
-	  population.push(d.population);
+	  population.push(d.AvgRuralPopln);
 	  d.AvgGDP = +d.AvgGDP;
 	  gdparr.push(d.AvgGDP);
 	  d.AvgArableLand = +d.AvgArableLand;
@@ -103,7 +103,7 @@ var yAxis = d3.svg.axis()
       .data(CountryData)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", function(d) { return circle_size(d.Population);})
+      .attr("r", function(d) { return circle_size(d.AvgRuralPopln);})
 	  .attr("cx",function(d) { return x_new(d.AvgGDP);  })
       //.attr("cx", function(d) { return x(d.AvgGDP); })
       .attr("cy", function(d) { return y_new(d.AvgArableLand); });
