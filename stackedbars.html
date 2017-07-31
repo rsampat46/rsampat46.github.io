@@ -57,7 +57,11 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
   g.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+      .call(d3.axisBottom(x)).selectAll("text")	
+        .style("text-anchor", "end")
+        .attr("dx", "-.8em")
+        .attr("dy", ".15em")
+        .attr("transform", "rotate(-65)");
 
   g.append("g")
       .attr("class", "axis")
@@ -69,7 +73,7 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
       .attr("fill", "#000")
       .attr("font-weight", "bold")
       .attr("text-anchor", "start")
-      .text("Population");
+      .text("Land Use(Sq Km)");
 
   var legend = g.append("g")
       .attr("font-family", "sans-serif")
