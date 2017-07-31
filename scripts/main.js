@@ -73,7 +73,7 @@ d3.json('data/10yravg.json',function(e,d2){
 
   svg.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(1000,100000" + height + ")")
+      .attr("transform", "translate(10,1000" + ")")
       .call(xAxis)
     .append("text")
       .attr("class", "label")
