@@ -62,18 +62,18 @@ d3.json('data/10yravg.json',function(e,d2){
   //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
   var x_new = d3.scale.log().base(Math.E)
                 .domain([gdp_range[0],gdp_range[1]]).nice()
-                .range([1000,100000]);
+                .range([0,width]);
   var arableland_range = d3.extent(arableland);
   var y_new = d3.scale.linear()
                 .domain([arableland_range[0],arableland_range[1]]).nice()
-                .range([0,100]);
+                .range([0,height]);
 
   //x.domain(d3.extent(CountryData, function(d) { return d.AvgGDP; })).nice();
   //y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
 
   svg.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(10,1000" + ")")
+      .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
     .append("text")
       .attr("class", "label")
