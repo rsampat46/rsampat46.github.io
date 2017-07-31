@@ -77,7 +77,7 @@ d3.json('data/10yravg.json',function(e,d2){
       .call(xAxis)
     .append("text")
       .attr("class", "label")
-      .attr("x", width)
+      //.attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
       .text("Average 10 year GDP(US$)");
@@ -88,7 +88,7 @@ d3.json('data/10yravg.json',function(e,d2){
     .append("text")
       .attr("class", "label")
       .attr("transform", "rotate(-90)")
-      .attr("y", 6)
+      //.attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("Arable Land (% of Land area)")
