@@ -331,12 +331,12 @@
  },
  {
    "CountryName": "Not classified",
-   "AvgGDP": "#DIV/0!",
-   "AvgArableLand": "#DIV/0!",
-   "AvgRuralPopln": "#DIV/0!",
+   "AvgGDP": "0",
+   "AvgArableLand": "0",
+   "AvgRuralPopln": "0",
    "LandArea": 0,
-   "ForestCover": "#DIV/0!",
-   "AvgAgriCont": "#DIV/0!",
+   "ForestCover": "0",
+   "AvgAgriCont": "0",
    "continent": "Asia"
  },
  {
@@ -506,7 +506,7 @@
    "AvgRuralPopln": "6990.363636",
    "LandArea": 200,
    "ForestCover": "88.55909091",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Oceania"
  },
  {
@@ -526,7 +526,7 @@
    "AvgRuralPopln": "12714885.91",
    "LandArea": 1246700,
    "ForestCover": "46.90783669",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Africa"
  },
  {
@@ -741,12 +741,12 @@
  },
  {
    "CountryName": "British Virgin Islands",
-   "AvgGDP": "#DIV/0!",
+   "AvgGDP": "0",
    "AvgArableLand": "6.666666667",
    "AvgRuralPopln": "14884",
    "LandArea": 150,
    "ForestCover": "24.26666667",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
@@ -866,7 +866,7 @@
    "AvgRuralPopln": "109813.1818",
    "LandArea": 190,
    "ForestCover": "4.210526316",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Europe"
  },
  {
@@ -971,12 +971,12 @@
  },
  {
    "CountryName": "Curacao",
-   "AvgGDP": "#DIV/0!",
-   "AvgArableLand": "#DIV/0!",
+   "AvgGDP": "0",
+   "AvgArableLand": "0",
    "AvgRuralPopln": "15013.90909",
    "LandArea": 444,
-   "ForestCover": "#DIV/0!",
-   "AvgAgriCont": "#DIV/0!",
+   "ForestCover": "0",
+   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
@@ -1116,7 +1116,7 @@
    "AvgRuralPopln": "28618.36364",
    "LandArea": 1396,
    "ForestCover": "0.05730659",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Europe"
  },
  {
@@ -1151,12 +1151,12 @@
  },
  {
    "CountryName": "French Polynesia",
-   "AvgGDP": "#DIV/0!",
+   "AvgGDP": "0",
    "AvgArableLand": "0.737704918",
    "AvgRuralPopln": "117125.8182",
    "LandArea": 3660,
    "ForestCover": "40.48683557",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Oceania"
  },
  {
@@ -1211,12 +1211,12 @@
  },
  {
    "CountryName": "Gibraltar",
-   "AvgGDP": "#DIV/0!",
-   "AvgArableLand": "#DIV/0!",
+   "AvgGDP": "0",
+   "AvgArableLand": "0",
    "AvgRuralPopln": "0",
    "LandArea": 10,
    "ForestCover": "0",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Europe"
  },
  {
@@ -1236,7 +1236,7 @@
    "AvgRuralPopln": "8754.636364",
    "LandArea": 410450,
    "ForestCover": "0.000535997",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
@@ -1256,7 +1256,7 @@
    "AvgRuralPopln": "9544.090909",
    "LandArea": 540,
    "ForestCover": "46.2962963",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Oceania"
  },
  {
@@ -1306,7 +1306,7 @@
    "AvgRuralPopln": "4800570.545",
    "LandArea": 27560,
    "ForestCover": "3.664731495",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
@@ -1325,7 +1325,7 @@
    "AvgArableLand": "3.552380952",
    "AvgRuralPopln": "0",
    "LandArea": 1050,
-   "ForestCover": "#DIV/0!",
+   "ForestCover": "0",
    "AvgAgriCont": "0.061838428",
    "continent": "Asia"
  },
@@ -1386,7 +1386,7 @@
    "AvgRuralPopln": "9660359.091",
    "LandArea": 437370,
    "ForestCover": "1.89470425",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Asia"
  },
  {
@@ -1406,7 +1406,7 @@
    "AvgRuralPopln": "40400.63636",
    "LandArea": 570,
    "ForestCover": "6.070175439",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Europe"
  },
  {
@@ -1416,7 +1416,7 @@
    "AvgRuralPopln": "622615.3636",
    "LandArea": 21640,
    "ForestCover": "7.267686103",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Asia"
  },
  {
@@ -1491,12 +1491,12 @@
  },
  {
    "CountryName": "Korea, Dem. People�s Rep.",
-   "AvgGDP": "#DIV/0!",
+   "AvgGDP": "0",
    "AvgArableLand": "19.64122581",
    "AvgRuralPopln": "9732773.818",
    "LandArea": 120410,
    "ForestCover": "47.05136239",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Asia"
  },
  {
@@ -1513,9 +1513,9 @@
    "CountryName": "Kosovo",
    "AvgGDP": "5806453426",
    "AvgArableLand": "27.5558005",
-   "AvgRuralPopln": "#DIV/0!",
+   "AvgRuralPopln": "0",
    "LandArea": 10887,
-   "ForestCover": "#DIV/0!",
+   "ForestCover": "0",
    "AvgAgriCont": "15.27127443",
    "continent": "Europe"
  },
@@ -1606,7 +1606,7 @@
    "AvgRuralPopln": "30990.45455",
    "LandArea": 160,
    "ForestCover": "43.125",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Europe"
  },
  {
@@ -1632,10 +1632,10 @@
  {
    "CountryName": "Macao SAR, China",
    "AvgGDP": "31702448325",
-   "AvgArableLand": "#DIV/0!",
+   "AvgArableLand": "0",
    "AvgRuralPopln": "0",
    "LandArea": 30.3,
-   "ForestCover": "#DIV/0!",
+   "ForestCover": "0",
    "AvgAgriCont": "0",
    "continent": "Asia"
  },
@@ -1772,11 +1772,11 @@
  {
    "CountryName": "Monaco",
    "AvgGDP": "5545711202",
-   "AvgArableLand": "#DIV/0!",
+   "AvgArableLand": "0",
    "AvgRuralPopln": "0",
    "LandArea": 2,
-   "ForestCover": "#DIV/0!",
-   "AvgAgriCont": "#DIV/0!",
+   "ForestCover": "0",
+   "AvgAgriCont": "0",
    "continent": "Europe"
  },
  {
@@ -1842,11 +1842,11 @@
  {
    "CountryName": "Nauru",
    "AvgGDP": "72883502.27",
-   "AvgArableLand": "#DIV/0!",
+   "AvgArableLand": "0",
    "AvgRuralPopln": "0",
    "LandArea": 20,
    "ForestCover": "0",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Oceania"
  },
  {
@@ -1871,12 +1871,12 @@
  },
  {
    "CountryName": "New Caledonia",
-   "AvgGDP": "#DIV/0!",
+   "AvgGDP": "0",
    "AvgArableLand": "0.359628009",
    "AvgRuralPopln": "81987.09091",
    "LandArea": 18280,
    "ForestCover": "45.89715536",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Oceania"
  },
  {
@@ -1926,7 +1926,7 @@
    "AvgRuralPopln": "5944.181818",
    "LandArea": 460,
    "ForestCover": "65.91106719",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Oceania"
  },
  {
@@ -1986,7 +1986,7 @@
    "AvgRuralPopln": "5956826.545",
    "LandArea": 452860,
    "ForestCover": "74.13489218",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Oceania"
  },
  {
@@ -2096,7 +2096,7 @@
    "AvgRuralPopln": "148868",
    "LandArea": 2830,
    "ForestCover": "60.42402827",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Oceania"
  },
  {
@@ -2106,7 +2106,7 @@
    "AvgRuralPopln": "1808.090909",
    "LandArea": 60,
    "ForestCover": "0",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Europe"
  },
  {
@@ -2181,12 +2181,12 @@
  },
  {
    "CountryName": "Sint Maarten (Dutch part)",
-   "AvgGDP": "#DIV/0!",
-   "AvgArableLand": "#DIV/0!",
+   "AvgGDP": "0",
+   "AvgArableLand": "0",
    "AvgRuralPopln": "0",
    "LandArea": 34,
-   "ForestCover": "#DIV/0!",
-   "AvgAgriCont": "#DIV/0!",
+   "ForestCover": "0",
+   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
@@ -2226,7 +2226,7 @@
    "AvgRuralPopln": "6006413.455",
    "LandArea": 627340,
    "ForestCover": "10.75493353",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Africa"
  },
  {
@@ -2242,11 +2242,11 @@
  {
    "CountryName": "South Sudan",
    "AvgGDP": "13407414253",
-   "AvgArableLand": "#DIV/0!",
+   "AvgArableLand": "0",
    "AvgRuralPopln": "8310057.818",
    "LandArea": 0,
-   "ForestCover": "#DIV/0!",
-   "AvgAgriCont": "#DIV/0!",
+   "ForestCover": "0",
+   "AvgAgriCont": "0",
    "continent": "Africa"
  },
  {
@@ -2291,12 +2291,12 @@
  },
  {
    "CountryName": "St. Martin (French part)",
-   "AvgGDP": "#DIV/0!",
-   "AvgArableLand": "#DIV/0!",
-   "AvgRuralPopln": "#DIV/0!",
+   "AvgGDP": "0",
+   "AvgArableLand": "0",
+   "AvgRuralPopln": "0",
    "LandArea": 54.4,
    "ForestCover": "18.38235294",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
@@ -2471,18 +2471,18 @@
  },
  {
    "CountryName": "Turks and Caicos Islands",
-   "AvgGDP": "#DIV/0!",
+   "AvgGDP": "0",
    "AvgArableLand": "1.052631579",
    "AvgRuralPopln": "3006.545455",
    "LandArea": 950,
    "ForestCover": "36.21052632",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
    "CountryName": "Tuvalu",
    "AvgGDP": "31675476.67",
-   "AvgArableLand": "#DIV/0!",
+   "AvgArableLand": "0",
    "AvgRuralPopln": "4438.909091",
    "LandArea": 30,
    "ForestCover": "33.33333333",
@@ -2516,7 +2516,7 @@
    "AvgRuralPopln": "1199881.818",
    "LandArea": 83600,
    "ForestCover": "3.795454545",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "Asia"
  },
  {
@@ -2596,7 +2596,7 @@
    "AvgRuralPopln": "5781.636364",
    "LandArea": 350,
    "ForestCover": "51.89350649",
-   "AvgAgriCont": "#DIV/0!",
+   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
