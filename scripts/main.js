@@ -45,9 +45,9 @@ d3.json('data/10yravg.json',function(e,d2){
 	  d.AvgRuralPopln = +d.AvgRuralPopln;
 	  population.push(d.population);
 	  d.AvgGDP = +d.AvgGDP;
-	  gdparr.push(d.AvgGDP);
+	  gdparr.push(parseInt(d.AvgGDP));
 	  d.AvgArableLand = +d.AvgArableLand;
-	  arableland.push(d.AvgArableLand);
+	  arableland.push(parseInt(d.AvgArableLand));
 	  d.LandArea = +d.LandArea;
 	  landarea.push(d.landarea);
 	  d.continent = +d.continent;
