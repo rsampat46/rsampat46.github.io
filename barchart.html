@@ -30,7 +30,7 @@ var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
 var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("data/ruralavghigher.csv", function(d) {
+d3.csv("data/forestcleanednocon.csv", function(d) {
   d.Average = +d.Average;
   return d;
 }, function(error, data) {
