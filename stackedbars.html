@@ -41,7 +41,7 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
   x.domain(data.map(function(d) { return d.CountryName; }));
   y.domain([1000, d3.max(data, function(d) { return d.total; })]).nice();
   z.domain(keys);
-g.append("text").attr("x","30").attr("y",10).style("fill","rgb(105, 49, 132)").style("transform","scale(1.2)").text("Average Rural and Urban Land Use(2005 to 2015)");
+g.append("text").attr("x","100").attr("y",10).style("fill","rgb(105, 49, 132)").style("transform","scale(1.2)").text("Average Rural and Urban Land Use(2005 to 2015)");
   g.append("g")
     .selectAll("g")
     .data(d3.stack().keys(keys)(data))
