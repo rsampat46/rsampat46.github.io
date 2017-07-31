@@ -58,9 +58,7 @@ d3.json('data/10yravg.json',function(e,d2){
   var circle_size = d3.scale.log().domain([1,pop_range[1]]).range([2,10]);
  
  var gdp_range = d3.extent(gdparr);
- alert(gdp_range[0]);
- alert(gdp_range[1]);
-  var x_new = d3.scale.log()
+ var x_new = d3.scale.log()
                 .domain([1,gdp_range[1]])
                 .range([0,width]);
   var arableland_range = d3.extent(arableland);
