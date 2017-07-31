@@ -37,7 +37,7 @@ d3.csv("data/ruralavghigher.csv", function(d) {
   if (error) throw error;
 
   x.domain(data.map(function(d) { return d.CountryName; }));
-  y.domain([0, d3.max(data, function(d) { return d.Average; })]);
+  y.domain([10000, d3.max(data, function(d) { return d.Average; })]);
 
   g.append("g")
       .attr("class", "axis axis--x")
