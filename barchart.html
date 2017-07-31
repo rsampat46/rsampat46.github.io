@@ -60,8 +60,8 @@ d3.csv("data/ruralurbanavg.csv", function(d, i, columns) {
       .call(d3.axisBottom(x));
 
   g.append("g")
-	.attr("transform", "translate(" + margin.left + ",0)")
-      //.attr("class", "axis")
+	//.attr("transform", "translate(" + margin.left + ",0)")
+      .attr("class", "axis")
       .call(d3.axisLeft(y))
     .append("text")
       .attr("x", 10)
