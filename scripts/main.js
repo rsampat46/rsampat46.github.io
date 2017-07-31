@@ -64,12 +64,12 @@ d3.json('data/10yravg.json',function(e,d2){
   //x.domain(d3.extent(CountryData, function(d) { return d.AvgGDP; })).nice();
   //y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
 var xAxis = d3.svg.axis()
-    .scale(x)
+    .scale(x_new)
 	.tickValues([1000000000,  100000000000,  10000000000000])
     .orient("bottom");
 
 var yAxis = d3.svg.axis()
-    .scale(y)
+    .scale(y_new)
 	.tickValues([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
     .orient("left");
 
