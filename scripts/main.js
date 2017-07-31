@@ -75,6 +75,7 @@ d3.json('data/10yravg.json',function(e,d2){
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
+	  .ticks(100000000/width);
     .append("text")
       .attr("class", "label")
       .attr("x", width)
@@ -85,6 +86,7 @@ d3.json('data/10yravg.json',function(e,d2){
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
+	  .ticks(20)
     .append("text")
       .attr("class", "label")
       .attr("transform", "rotate(-90)")
