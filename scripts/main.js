@@ -9,7 +9,7 @@ var x = d3.scale.linear()
 var y = d3.scale.linear()
     .range([height, 0]);
 
-var color = d3.scale.category10();
+
 
 
 var svg = d3.select("body").append("svg")
@@ -65,7 +65,7 @@ d3.json('data/10yravg.json',function(e,d2){
   var y_new = d3.scale.linear()
                 .domain([arableland_range[0],arableland_range[1]]).nice()
                 .range([height,0]);
-
+var color = d3.scale.category10();
   //x.domain(d3.extent(CountryData, function(d) { return d.AvgGDP; })).nice();
   //y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
 var xAxis = d3.svg.axis()
