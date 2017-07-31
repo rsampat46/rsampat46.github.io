@@ -59,7 +59,7 @@ d3.json('data/10yravg.json',function(e,d2){
   var arableland_range = d3.extent(arableland);
   var y_new = d3.scale.linear()
                 .domain([arableland_range[0],arableland_range[1]]).nice()
-                .range([0,height]);
+                .range([height,0]);
 
   //x.domain(d3.extent(CountryData, function(d) { return d.AvgGDP; })).nice();
   //y.domain(d3.extent(CountryData, function(d) { return d.AvgArableLand; })).nice();
