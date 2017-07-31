@@ -95,7 +95,7 @@ var tooltip = d3.select("svg").append("div")
                       .style("top", (d3.event.pageY - 28) + "px")
                     .transition()
                       .duration(200) // ms
-                      .style("opacity", .9) // started as 0!
+                      .style("opacity", 1) // started as 0!
 
               };
               // tooltip mouseout event handler
@@ -104,16 +104,6 @@ var tooltip = d3.select("svg").append("div")
                       .duration(300) // ms
                       .style("opacity", 0); // don't care about position!
               };
-			  
-			  
-			  
-			  
-			  
-			  
-			  
-			  
-			  
-			  
 			  
   svg.append("g")
       .attr("class", "x axis")
