@@ -103,7 +103,7 @@ var yAxis = d3.svg.axis()
       .data(CountryData)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", function(d) { return circle_size(d.AvgRuralPopln);})
+      .attr("r", 3.5)//function(d) { return circle_size(d.AvgRuralPopln);})
 	  .attr("cx",function(d) { return x_new(d.AvgGDP);  })
       //.attr("cx", function(d) { return x(d.AvgGDP); })
       .attr("cy", function(d) { return y_new(d.AvgArableLand); });
