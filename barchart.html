@@ -43,9 +43,12 @@ d3.csv("data/ruralavghigher.csv", function(d) {
       .attr("class", "axis axis--x")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x))
-	  .append("text")
-	  .attr("transform", "rotate(90)")
-	  .attr("x",2);
+	  .selectAll("text")	
+        .style("text-anchor", "end")
+        .attr("dx", "-.8em")
+        .attr("dy", ".15em")
+        .attr("transform", "rotate(-65)");
+	  
 
   g.append("g")
       .attr("class", "axis axis--y")
