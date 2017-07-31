@@ -39,17 +39,19 @@ var load_state =
 
 d3.json('data/10yravg.json',function(e,d2){
 
-  // console.log(e);
+  console.log(e);
   CountryData = d2;
   CountryData.forEach(function(d) {
 	  d.AvgRuralPopln = +d.AvgRuralPopln;
 	  population.push(d.population);
 	  d.AvgGDP = +d.AvgGDP;
-	  gdparr.push(d.AvgGDP);
+	  gdparr.push(parseInt(d.AvgGDP));
 	  d.AvgArableLand = +d.AvgArableLand;
-	  arableland.push(d.AvgArableLand);
+	  arableland.push(parseInt(d.AvgArableLand));
 	  d.LandArea = +d.LandArea;
 	  landarea.push(d.landarea);
+	  d.continent = +d.continent;
+	  Country_continent_code.push(d.continent);
   });
  var gdp_range = d3.extent(gdparr);
   //var circle_size = d3.scaleLog().domain([pop_range[0],pop_range[1]]).range([2,10]);
@@ -101,10 +103,9 @@ var yAxis = d3.svg.axis()
     .enter().append("circle")
       .attr("class", "dot")
       .attr("r", 3.5)
-	  .attr("cx",function(d) { return x_new(d.AvgGDP);  })
-      //.attr("cx", function(d) { return x(d.AvgGDP); })
-      .attr("cy", function(d) { return y_new(d.AvgArableLand); });
-      //.style("fill", function(d) { return color(d.species); });
+	  .attr("cx",function(d) { return x_new(d.AvgGDP) ; })      
+      .attr("cy", function(d) { return y_new(d["AvgArableLand"]) })
+      .style("fill", function(d) { return color(d["continent"]) });
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())
