@@ -108,7 +108,7 @@ var yAxis = d3.svg.axis()
 	  .attr("cx",function(d) { var retval=0; if(d.AvgGDP === 0) { retval=0;}else{retval=x_new(d.AvgGDP);} return retval; })
       //.attr("cx", function(d) { return x(d.AvgGDP); })
       .attr("cy", function(d) { return y_new(d.AvgArableLand); })
-      .style("fill", function(d) { retcol="blue"; if(d.continent === "Asia"){ retcol="pink";}else if(d.continent === "Africa"){ retcol="red";}return retcol; });
+      .style("fill", function(d) { alert(d.continent); retcol="blue"; if(d.continent === "Asia"){ retcol="pink";}else if(d.continent === "Africa"){ retcol="red";}return retcol; });
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())
