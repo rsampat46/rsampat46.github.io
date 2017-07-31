@@ -78,7 +78,7 @@ var yAxis = d3.svg.axis()
 
   svg.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(0,430)")
       .call(xAxis)
     .append("text")
       .attr("class", "label")
