@@ -81,9 +81,7 @@ var tooltip = d3.select("svg").append("div")
                   .attr("class", "tooltip")
                   .style("opacity", 0);
 				  
-				  var stroke_val = d3.select(this).style("stroke");
-          d3.select(this).style("fill",stroke_val);
-
+				
           var x = d3.mouse(this)[0] + 120;
           var y =  d3.mouse(this)[1];
 
