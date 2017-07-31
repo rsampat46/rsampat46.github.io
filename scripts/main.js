@@ -51,9 +51,9 @@ d3.json('data/10yravg.json',function(e,d2){
 	  arableland.push(d.AvgArableLand);
 	  d.LandArea = +d.LandArea;
 	  landarea.push(d.landarea);
-	  d.continent = +d.continent;
-	  Country_continent_code.push(d.continent);
-	  alert(d.continent);
+	  d["continent"] = +d["continent"];
+	  Country_continent_code.push(d["continent"]);
+	  alert(d["continent"]);
   });
   var pop_range = d3.extent(population);
   var circle_size = d3.scale.log().domain([1,pop_range[1]]).range([2,10]);
