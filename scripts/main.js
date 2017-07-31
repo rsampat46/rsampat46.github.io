@@ -105,7 +105,7 @@ var yAxis = d3.svg.axis()
       .attr("r", 3.5)
 	  .attr("cx",function(d) { return x_new(d["AvgGDP"])  })      
       .attr("cy", function(d) { return y_new(d["AvgArableLand"]) })
-      .style("fill", function(d) { return color(d.continent) });
+      .style("fill", function(d) { return color(d["continent"]) });
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())
