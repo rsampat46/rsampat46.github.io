@@ -39,7 +39,7 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
 
   data.sort(function(a, b) { return b.total - a.total; });
   x.domain(data.map(function(d) { return d.CountryName; }));
-  y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
+  y.domain([1000, d3.max(data, function(d) { return d.total; })]).nice();
   z.domain(keys);
 
   g.append("g")
