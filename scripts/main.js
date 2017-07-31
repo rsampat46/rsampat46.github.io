@@ -80,17 +80,23 @@ var yAxis = d3.svg.axis()
 var tooltip = d3.select("svg").append("div")
                   .attr("class", "tooltip")
                   .style("opacity", 0);
+				  
+				  var stroke_val = d3.select(this).style("stroke");
+          d3.select(this).style("fill",stroke_val);
+
+          var x = d3.mouse(this)[0] + 120;
+          var y =  d3.mouse(this)[1];
 
               // tooltip mouseover event handler
               var tipMouseover = function(d) {
                   //var color = colorScale(d.manufacturer);
-                  var html  = d.CountryName + "<br/>" +
-                              "<span style='color:black;'>" + d.AvgRuralPopln + "</span><br/>" +
-                              "<b>" + d.LandArea + "</b> , <b/>" + d.AvgArableLand + "</b> % arable";
+                  var html  = "Country Name : " + d['CountryName'] + "<br/>" + "AvgGDP : " + d[AvgGDP] + "<br />" 
+								+ "AvgArableLand : " + d[AvgArableLand] + "<br />" + "Continent : " + d["Continent"] + "<br />"; 
+                              
 
                   tooltip.html(html)
-                      .style("left", (d3.event.pageX + 15) + "px")
-                      .style("top", (d3.event.pageY - 28) + "px")
+                      .style("left",  x + 'px')//(d3.event.pageX + 15) + "px")
+                      .style("top", y + 'px')//(d3.event.pageY - 28) + "px")
                     .transition()
                       .duration(200) // ms
                       .style("opacity", .9) // started as 0!
@@ -102,6 +108,17 @@ var tooltip = d3.select("svg").append("div")
                       .duration(300) // ms
                       .style("opacity", 0); // don't care about position!
               };
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
