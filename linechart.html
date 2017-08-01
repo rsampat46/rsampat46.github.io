@@ -70,17 +70,17 @@ d3.tsv("data/forestcoverlinetransposed.tsv", type, function(error, data) {
       .attr("fill", "#000")
       .text("forestcover, %");
 
-  var city = g.selectAll(".city")
+  var country = g.selectAll(".country")
     .data(countries)
     .enter().append("g")
-      .attr("class", "city");
+      .attr("class", "country");
 
-  city.append("path")
+  country.append("path")
       .attr("class", "line")
       .attr("d", function(d) { return line(d.values); })
       .style("stroke", function(d) { return z(d.id); });
 
-  city.append("text")
+  country.append("text")
       .datum(function(d) { return {id: d.id, value: d.values[d.values.length - 1]}; })
       .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.forestcover) + ")"; })
       .attr("x", 3)
