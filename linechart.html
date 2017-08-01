@@ -34,7 +34,7 @@ var line = d3.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.forestcover); });
 
-d3.csv("data/forestcoverlinetransposed.csv", type, function(error, data) {
+d3.tsv("data/forestcoverlinetransposed.tsv", type, function(error, data) {
   if (error) throw error;
 
   var countries = data.columns.slice(1).map(function(id) {
