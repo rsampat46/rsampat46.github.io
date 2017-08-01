@@ -23,16 +23,6 @@ var CountryData = new Array();
 
 var Country_continent_code = new Array();
 
-var selectedCountries = new Array();
-var selectedCountries_ESData = new Object();
-
-var load_state =
-{
-  "Page3Part1" : false,
-  "Page3Part2" : false,
-  "Page3Part3" : false,
-  "Page3Part4" : false
-}
  var population = new Array();
   var gdparr = new Array();
   var arableland = new Array();
@@ -52,6 +42,8 @@ d3.json('data/10yravgcleaned.json',function(e,d2){
 	  d.LandArea = +d.LandArea;
 	  landarea.push(d.landarea);
 	 // d.continent = +d["continent"];
+	 var Continent = d["continent"];
+	 alert(Continent);
 	  Country_continent_code.push(d["continent"]);	  
   });
   var pop_range = d3.extent(population);
