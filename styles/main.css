@@ -7,7 +7,20 @@
   font: 10px sans-serif;
   text-anchor: end;
 }
+.article-header {
+  margin-bottom: 1em;
+}
 
+.article {
+  padding: 5em;
+  background: white;
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  width: 50%;
+  text-align: left;
+  vertical-align: top;
+}
 #scatterplot circle{
   fill: none;
   stroke-width: 3;
