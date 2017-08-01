@@ -154,7 +154,7 @@ var tooltip = d3.select("body").append("div")
       .attr("y", 9)
       .attr("dy", ".35em")
       .style("text-anchor", "end")
-      .text(function(d) { return d['continent']; });
+      .text(function(d) { if(color === "#2CA02C"){ return "South Africa";} else{return d['continent']; }});
 
 });
   
