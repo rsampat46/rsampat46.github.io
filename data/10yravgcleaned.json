@@ -270,16 +270,6 @@
    "continent": "South America"
  },
  {
-   "CountryName": "British Virgin Islands",
-   "AvgGDP": "0",
-   "AvgArableLand": "6.666666667",
-   "AvgRuralPopln": "14884",
-   "LandArea": 150,
-   "ForestCover": "24.26666667",
-   "AvgAgriCont": "0",
-   "continent": "North America"
- },
- {
    "CountryName": "Brunei Darussalam",
    "AvgGDP": "14345800185",
    "AvgArableLand": "0.683111954",
@@ -500,16 +490,6 @@
    "continent": "North America"
  },
  {
-   "CountryName": "Curacao",
-   "AvgGDP": "0",
-   "AvgArableLand": "0",
-   "AvgRuralPopln": "15013.90909",
-   "LandArea": 444,
-   "ForestCover": "0",
-   "AvgAgriCont": "0",
-   "continent": "North America"
- },
- {
    "CountryName": "Cyprus",
    "AvgGDP": "23808286747",
    "AvgArableLand": "10.0508658",
@@ -680,16 +660,6 @@
    "continent": "Europe"
  },
  {
-   "CountryName": "French Polynesia",
-   "AvgGDP": "0",
-   "AvgArableLand": "0.737704918",
-   "AvgRuralPopln": "117125.8182",
-   "LandArea": 3660,
-   "ForestCover": "40.48683557",
-   "AvgAgriCont": "0",
-   "continent": "Oceania"
- },
- {
    "CountryName": "Gabon",
    "AvgGDP": "14488597533",
    "AvgArableLand": "1.261303217",
@@ -738,16 +708,6 @@
    "ForestCover": "40.41047728",
    "AvgAgriCont": "28.49142678",
    "continent": "Africa"
- },
- {
-   "CountryName": "Gibraltar",
-   "AvgGDP": "0",
-   "AvgArableLand": "0",
-   "AvgRuralPopln": "0",
-   "LandArea": 10,
-   "ForestCover": "0",
-   "AvgAgriCont": "0",
-   "continent": "Europe"
  },
  {
    "CountryName": "Greece",
@@ -1018,16 +978,6 @@
    "ForestCover": "15",
    "AvgAgriCont": "24.209498",
    "continent": "Oceania"
- },
- {
-   "CountryName": "Korea, Dem. People�s Rep.",
-   "AvgGDP": "0",
-   "AvgArableLand": "19.64122581",
-   "AvgRuralPopln": "9732773.818",
-   "LandArea": 120410,
-   "ForestCover": "47.05136239",
-   "AvgAgriCont": "0",
-   "continent": "Asia"
  },
  {
    "CountryName": "Korea, Rep.",
@@ -1400,16 +1350,6 @@
    "continent": "Europe"
  },
  {
-   "CountryName": "New Caledonia",
-   "AvgGDP": "0",
-   "AvgArableLand": "0.359628009",
-   "AvgRuralPopln": "81987.09091",
-   "LandArea": 18280,
-   "ForestCover": "45.89715536",
-   "AvgAgriCont": "0",
-   "continent": "Oceania"
- },
- {
    "CountryName": "New Zealand",
    "AvgGDP": "1.52E+11",
    "AvgArableLand": "1.821047435",
@@ -1710,16 +1650,6 @@
    "continent": "Asia"
  },
  {
-   "CountryName": "Sint Maarten (Dutch part)",
-   "AvgGDP": "0",
-   "AvgArableLand": "0",
-   "AvgRuralPopln": "0",
-   "LandArea": 34,
-   "ForestCover": "0",
-   "AvgAgriCont": "0",
-   "continent": "North America"
- },
- {
    "CountryName": "Slovak Republic",
    "AvgGDP": "88769711241",
    "AvgArableLand": "28.8480173",
@@ -1817,16 +1747,6 @@
    "LandArea": 610,
    "ForestCover": "33.7704918",
    "AvgAgriCont": "3.295598791",
-   "continent": "North America"
- },
- {
-   "CountryName": "St. Martin (French part)",
-   "AvgGDP": "0",
-   "AvgArableLand": "0",
-   "AvgRuralPopln": "0",
-   "LandArea": 54.4,
-   "ForestCover": "18.38235294",
-   "AvgAgriCont": "0",
    "continent": "North America"
  },
  {
@@ -1998,16 +1918,6 @@
    "ForestCover": "8.782159045",
    "AvgAgriCont": "14.73212696",
    "continent": "Asia"
- },
- {
-   "CountryName": "Turks and Caicos Islands",
-   "AvgGDP": "0",
-   "AvgArableLand": "1.052631579",
-   "AvgRuralPopln": "3006.545455",
-   "LandArea": 950,
-   "ForestCover": "36.21052632",
-   "AvgAgriCont": "0",
-   "continent": "North America"
  },
  {
    "CountryName": "Tuvalu",
