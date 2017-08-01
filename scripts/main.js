@@ -55,7 +55,7 @@ d3.json('data/10yravgcleaned.json',function(e,d2){
 	  Country_continent_code.push(d["continent"]);	  
   });
   var pop_range = d3.extent(population);
-  var circle_size = d3.scale.log().domain([1,pop_range[1]]).range([2,20]);
+  var circle_size = d3.scale.log().domain([1,pop_range[1]]).range([2,15]);
  
  var gdp_range = d3.extent(gdparr);
  var x_new = d3.scale.log()
