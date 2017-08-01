@@ -41,7 +41,6 @@ d3.csv("data/forestcoverlinetransposed.csv", type, function(error, data) {
     return {
       id: id,
       values: data.map(function(d) {
-		alert(d.date);
         return {date: d.date, forestcover: d[id]};
       })
     };
