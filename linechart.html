@@ -23,7 +23,7 @@ var svg = d3.select("svg"),
     height = svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-//var parseTime = d3.timeParse("%Y%m%d");
+var parseTime = d3.timeParse("%Y");
 
 var x = d3.scaleTime().range([0, width]),
     y = d3.scaleLinear().range([height, 0]),
@@ -90,7 +90,7 @@ d3.csv("data/forestcoverlinetransposed.csv", type, function(error, data) {
 });
 
 function type(d, _, columns) {
-  //d.date = parseTime(d.date);
+  d.date = parseTime(d.date);
   for (var i = 1, n = columns.length, c; i < n; ++i) d[c = columns[i]] = +d[c];
   return d;
 }
