@@ -43,8 +43,7 @@ d3.json('data/10yravgcleaned.json',function(e,d2){
 	  landarea.push(d.landarea);
 	 // d.continent = +d["continent"];
 	 var Continent = d["continent"];
-	 alert(Continent);
-	  Country_continent_code.push(Continent);	  
+	 Country_continent_code.push(Continent);	  
   });
   var pop_range = d3.extent(population);
   var circle_size = d3.scale.log().domain([1,pop_range[1]]).range([2,15]);
