@@ -77,7 +77,7 @@ var yAxis = d3.svg.axis()
     .scale(y_new)
 	.tickValues([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
     .orient("left");
-var tooltip = d3.select("svg").append("div")
+var tooltip = d3.select("body").append("div")
                   .attr("class", "tooltip")
                   .style("opacity", 0);
 				  
