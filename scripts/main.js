@@ -86,8 +86,8 @@ var tooltip = d3.select("body").append("div")
               // tooltip mouseover event handler
               var tipMouseover = function(d) {
                   //var color = colorScale(d.manufacturer);
-                  var html  = "<span style='color:red'> Country Name : " + d['CountryName'] + "<br/>" + "AvgGDP : " + d.AvgGDP + "<br/>" + "AvgArableLand : " 
-				  + d.AvgArableLand + "<br />" + "Continent : " + d['Continent'] + "<br /></span>"; 
+                  var html  = "<span style='color:red'> Country Name : " + d['CountryName'] + "<br/>" + "AvgGDP : " + d.AvgGDP + " USD <br/>" + "AvgArableLand : " 
+				  + d.AvgArableLand + " sq km<br />" + "Average Rural Population : " + d.AvgRuralPopln + "<br /></span>"; 
                               
 
                   tooltip.html(html)
