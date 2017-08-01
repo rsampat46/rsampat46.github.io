@@ -44,7 +44,7 @@ d3.json('data/10yravgcleaned.json',function(e,d2){
 	 // d.continent = +d["continent"];
 	 var Continent = d["continent"];
 	 alert(Continent);
-	  Country_continent_code.push(d["continent"]);	  
+	  Country_continent_code.push(Continent);	  
   });
   var pop_range = d3.extent(population);
   var circle_size = d3.scale.log().domain([1,pop_range[1]]).range([2,15]);
@@ -127,7 +127,7 @@ var tooltip = d3.select("body").append("div")
 	  .attr("cx",function(d) { var retval=0; if(d.AvgGDP === 0) { retval=0;}else{retval=x_new(d.AvgGDP);} return retval; })
       //.attr("cx", function(d) { return x(d.AvgGDP); })
       .attr("cy", function(d) { return y_new(d.AvgArableLand); })
-      .style("fill", function(d){return color(d.continent);})
+      .style("fill", function(d){return color(d["continent"]);})
 	  .on("mouseover", tipMouseover)
       .on("mouseout", tipMouseout);
 
@@ -146,7 +146,7 @@ var tooltip = d3.select("body").append("div")
       .attr("y", 9)
       .attr("dy", ".35em")
       .style("text-anchor", "end")
-      .text(function(d) { if(color === "#2CA02C"){ return "South Africa";} else{return d['continent']; }});
+      .text(function(d) { if(color === "#2CA02C"){ return "South Africa";} else{return d["continent"]; }});
 
 });
   
