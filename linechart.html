@@ -46,7 +46,8 @@ d3.csv("data/forestcoverlinetransposed.csv", type, function(error, data) {
     };
   });
 
-  x.domain(d3.extent(data, function(d) { return d.date; }));
+  //x.domain(d3.extent(data, function(d) { return d.date; }));
+  x.domain(1990,2015);
 
   y.domain([
     d3.min(countries, function(c) { return d3.min(c.values, function(d) { return d.forestcover; }); }),
