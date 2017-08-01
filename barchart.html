@@ -13,18 +13,53 @@
 .axis--x path {
   display: none;
 }
+.tooltip {
+            position: absolute;
+            font-size: 12px;
+            width:  auto;
+            height: auto;
+            pointer-events: none;
+			background: white;
+			border: 1px black;
+			color: black;
+        }
 
 </style>
 <body>
 <div class="jumbotron" style="background-color: gray; color: white" aligncenter>
     <h1 style="padding-left : 2%">How big is the rural land area in various countries?</h1></div>
-   <p style="padding-left : 2%">The bar chart of Rural Land area across various countries depicts the various countries on the x-axis versus the rural land area in square kilometers on the y-axis. </p>
+   <p style="padding-left : 2%">The bar chart of avergae rural land area for the past 10 years across various countries depicts the various countries on the x-axis versus the rural land area in square kilometers on the y-axis. </p>
    <p style="padding-left : 2%">Larger countries obviously have a large rural land area. But do developed countries have more <a href="stackedbars.html">urban land area</a>? </p>
 <svg width="1560" height="500"></svg>
 <script src="scripts\d3.v4.min.js"></script>
 
 <script>
+var tooltip = d3.select("body").append("div")
+                  .attr("class", "tooltip")
+                  .style("opacity", 0);
+				  
+				
+          
+              // tooltip mouseover event handler
+              var tipMouseover = function(d) {
+                  //var color = colorScale(d.manufacturer);
+                  var html  = "<span style='color:red'> Country Name : " + d['CountryName'] + "<br/>" + "Average Rural Land Area  : " + d.Average + " sq km <br/>"  + "<br /></span>"; 
+                              
 
+                  tooltip.html(html)
+                      .style("left",  (d3.event.pageX + 15) + "px")
+                      .style("top", (d3.event.pageY - 28) + "px")
+                    .transition()
+                      .duration(200) // ms
+                      .style("opacity", 1) // started as 0!
+
+              };
+              // tooltip mouseout event handler
+              var tipMouseout = function(d) {
+                  tooltip.transition()
+                      .duration(300) // ms
+                      .style("opacity", 0); // don't care about position!
+              };
 var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 100, left: 40},
     width = +svg.attr("width") - margin.left - margin.right,
@@ -73,7 +108,9 @@ d3.csv("data/ruralavghigher.csv", function(d) {
       .attr("x", function(d) { return x(d.CountryName); })
       .attr("y", function(d) { return y(d.Average); })
       .attr("width", x.bandwidth())
-      .attr("height", function(d) { return height - y(d.Average); });
+      .attr("height", function(d) { return height - y(d.Average); })
+	  .on("mouseover", tipMouseover)
+      .on("mouseout", tipMouseout);;
 });
 
 </script>
