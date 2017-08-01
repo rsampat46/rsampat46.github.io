@@ -63,8 +63,8 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
    // tooltip mouseover event handler
               var tipMouseover = function(d) {
                   //var color = colorScale(d.manufacturer);
-                  var html  = "<span style='color:red'> Country Name : " + d.data.CountryName + "<br/>" + "Average Rural Land Area  : " + d.RuralAverage + " sq km <br/>"  
-				  + "Average Urban Land Area  : " + d.UrbanAverage + " sq km <br/>"+ "<br /></span>"; 
+                  var html  = "<span style='color:red'> Country Name : " + d.data.CountryName + "<br/>" + "Average Rural Land Area  : " + d.data.RuralAverage + " sq km <br/>"  
+				  + "Average Urban Land Area  : " + d.data.UrbanAverage + " sq km <br/>"+ "<br /></span>"; 
                               
 
                   tooltip.html(html)
