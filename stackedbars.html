@@ -30,31 +30,6 @@ body {
 var tooltip = d3.select("body").append("div")
                   .attr("class", "tooltip")
                   .style("opacity", 0);
-				  
-				
-          
-              // tooltip mouseover event handler
-              var tipMouseover = function(d) {
-                  //var color = colorScale(d.manufacturer);
-                  var html  = "<span style='color:red'> Country Name : " + d['CountryName'] + "<br/>" + "Average Rural Land Area  : " + d.RuralAverage + " sq km <br/>"  
-				  + "Average Urban Land Area  : " + d.UrbanAverage + " sq km <br/>"+ "<br /></span>"; 
-                              
-
-                  tooltip.html(html)
-                      .style("left",  (d3.event.pageX + 15) + "px")
-                      .style("top", (d3.event.pageY - 28) + "px")
-                    .transition()
-                      .duration(200) // ms
-                      .style("opacity", 1) // started as 0!
-
-              };
-              // tooltip mouseout event handler
-              var tipMouseout = function(d) {
-                  tooltip.transition()
-                      .duration(300) // ms
-                      .style("opacity", 0); // don't care about position!
-              };
-
 var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 100, left: 40},
     width = +svg.attr("width") - margin.left - margin.right,
@@ -76,7 +51,6 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
   d.total = t;
   return d;
-  alert(t);
 }, function(error, data) {
   if (error) throw error;
 
@@ -86,6 +60,27 @@ d3.csv("data/ruralurbanhigheravg.csv", function(d, i, columns) {
   x.domain(data.map(function(d) { return d.CountryName; }));
   y.domain([1000, d3.max(data, function(d) { return d.total; })]).nice();
   z.domain(keys);
+   // tooltip mouseover event handler
+              var tipMouseover = function(d) {
+                  //var color = colorScale(d.manufacturer);
+                  var html  = "<span style='color:red'> Country Name : " + d.data.CountryName + "<br/>" + "Average Rural Land Area  : " + d.RuralAverage + " sq km <br/>"  
+				  + "Average Urban Land Area  : " + d.UrbanAverage + " sq km <br/>"+ "<br /></span>"; 
+                              
+
+                  tooltip.html(html)
+                      .style("left",  (d3.event.pageX + 15) + "px")
+                      .style("top", (d3.event.pageY - 28) + "px")
+                    .transition()
+                      .duration(200) // ms
+                      .style("opacity", 1) // started as 0!
+
+              };
+              // tooltip mouseout event handler
+              var tipMouseout = function(d) {
+                  tooltip.transition()
+                      .duration(300) // ms
+                      .style("opacity", 0); // don't care about position!
+              };
 g.append("text").attr("x","100").attr("y",10).style("fill","rgb(105, 49, 132)").style("transform","scale(1.2)").text("Average Rural and Urban Land Use(2005 to 2015)");
   g.append("g")
     .selectAll("g")
