@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<link rel="stylesheet" href = "styles/main.css">  </style>
-<head>  
-<title>
-  CS 498 Data Visualization-Gayatri
-</title>
+<link rel="stylesheet" href="styles/main.css">
+</style>
+
+<head>
+  <title>
+    CS 498 Data Visualization-Gayatri
+  </title>
 </head>
 <style>
+  body {
+    font: 16px sans-serif;
+  }
 
-body {
-  font: 16px sans-serif;
-}
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
+  .dot {
+    stroke: #000;
+  }
 
-.dot {
-  stroke: #000;
-}
-.tooltip {
-            position: absolute;
-            font-size: 12px;
-            width:  auto;
-            height: auto;
-            pointer-events: none;
-			background: white;
-			border: 1px black;
-			color: black;
-        }
+  .tooltip {
+    position: absolute;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    pointer-events: none;
+    background: white;
+    border: 1px black;
+    color: black;
+  }
 </style>
+
 <body>
-<div class="jumbotron" style="background-color: gray; color: white" aligncenter>
-    <h1 style="padding-left : 2%">Do more Arable Land and higher Rural Population Indicate more GDP?</h1></div>
-   <p style="padding-left : 2%">The scatterplot of "Arable Land % & Rural Population Vs GDP" depicts the average GDP in US $ on the x-axis versus the average percentage of Arable Land along the Y-axis and the rural population as the size of the circles in the scatter plot. 
-The color scheme is based on the continents namely Asia, Africa, Europe, North America, South America and Oceania.</p>
-  
-  
-<script src="scripts\d3.min.js"></script>
-<script src="scripts\main.js"></script>
-<div aligncenter>
-  <br/><h3>So what does it mean?</h3><br/>
-  <p style="padding-left : 2%">Though urbanization is purported to be the way to increase a country's GDP, the true strength of a nation lies in its farmland and rural population.</p>
-  <p style="padding-left : 2%">Countries with good amount of arable land and significant rural population tend to have a higher GDP.</p>
-  <p style="padding-left : 2%">Interestingly, countries like Monaco, Morocco and Singapore which are conduits on popular trade routes also have a significant GDP despite their small land area. But they are the exception rather than the norm!</p>
-  <p style="padding-left : 2%">Maybe it is time we gave credit where it is due and focussed our sustainability efforts on the rural populace and agriculture.</p>
+  <div class="jumbotron" style="background-color: gray; color: white" aligncenter>
+    <h1 style="padding-left : 2%">Do more Arable Land and higher Rural Population Indicate more GDP?</h1>
   </div>
-<p style="padding-left : 2%">Where next?</p>
-<p style="padding-left : 2%">Explore how much of the land area of major countries of the world is occupied by the <a href="barchart.html">rural population</a><br/></p>
-<h3>Begin the <a href="index.html">Journey</a> again</h3><br/></div>
+  <p style="padding-left : 2%">The scatterplot of "Arable Land % & Rural Population Vs GDP" depicts the average GDP in US $ on the x-axis versus the average percentage of Arable Land along the Y-axis and the rural population as the size of the
+    circles in the scatter plot.
+    The color scheme is based on the continents namely Asia, Africa, Europe, North America, South America and Oceania.</p>
+
+
+  <script src="scripts\d3.min.js"></script>
+  <script src="scripts\main.js"></script>
+  <div aligncenter>
+    <br />
+    <h3>So what does it mean?</h3><br />
+    <p style="padding-left : 2%">Though urbanization is purported to be the way to increase a country's GDP, the true strength of a nation lies in its farmland and rural population.</p>
+    <p style="padding-left : 2%">Countries with good amount of arable land and significant rural population tend to have a higher GDP.</p>
+    <p style="padding-left : 2%">Interestingly, countries like Monaco, Morocco and Singapore which are conduits on popular trade routes also have a significant GDP despite their small land area. But they are the exception rather than the norm!</p>
+    <p style="padding-left : 2%">Maybe it is time we gave credit where it is due and focussed our sustainability efforts on the rural populace and agriculture.</p>
+  </div>
+  <p style="padding-left : 2%">Where next?</p>
+  <p style="padding-left : 2%">Explore how much of the land area of major countries of the world is occupied by the <a href="barchart.html">rural population</a><br /></p>
+  <h3>Begin the <a href="index.html">Journey</a> again</h3><br /></div>
 </body>
