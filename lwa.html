@@ -1,118 +1,290 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
-
-<!-- Create a div where the graph will take place -->
-<div id="my_dataviz"></div>
-
-<!-- Circle are black when hovered-->
+<script src="//d3js.org/d3.v3.min.js"></script>
+<body>
+  <div class="jumbotron" style="background-color: orange; color: white" aligncenter>
+      <h1 style="padding-left : 2%">How have COVID cases progressed with time?</h1></div>
+     <p style="padding-left : 2%">This line chart depicts the number of cases in relation to a period of time. </p>
+     <p style="padding-left : 2%">Explore the rise in cases in relation to different time periods by clicking the buttons to the side.</p>
+     <p style="padding-left : 2%">Additionally, hover along the line in order to find the exact number of cases for that specific datetime.</p>
+    <p style="padding-left : 2%"> We can see here that COVID-19 cases rose drastically with time. Where did such a drastic change occur from? Let's <a href="ibar.html"> explore further</a>! </p>
+  <svg class="chart"></svg>
+  <div class='button-area'></div>
+</body>
 <style>
-.myCircle:hover {
-  stroke: black;
+body {
+  font-family: Roboto;
+}
+
+.chart {
+  float: center;
+}
+
+.button-area {
+  padding: 40px 0 0 30px;
+  float: left;
+}
+
+.app-button {
+  <!-- background-color:orange;
+  display: block;
+  margin-bottom: 3px;
+  border-radius: 8px; -->
+  font-size: 18px;
+  background-color:orange
+  border: white 1px solid;
+  padding:10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.app-button:hover{
+  background: orange;
+}
+
+.axis text {
+  font-size: 0.8em;
+}
+
+.axis line {
+  stroke: #000;
+}
+
+.axis path {
+  display: none;
+}
+
+.line {
+  stroke: orange;
+  fill: none;
+  stroke-width: 3px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px sans-serif;
+  background: #222;
+  color: #fff;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0.9;
+  visibility: hidden;
 }
 </style>
-
 <script>
+d3.csv('/data/confirmed_cases.csv', function(dd) {
+  var fd = d3.time.format("%Y-%m-%d");
+  var bd = d3.bisector(function(d) { return fd.parse(d['date']); }).left;
 
-// set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+  dd.forEach(function(d, i) {
+    d.value = parseInt(d.value);
+  });
 
-// append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+  var wd = getNewData(parse_for_week);
 
-//Read the data
-d3.csv(url('../data/num_test_w_dates.csv'),
+  function parse_for_week(date) {
+    return fd.parse(date).getDay();
+  }
 
-  // When reading the csv, I must format variables:
-  function(d){
-    return { date : d3.timeParse("%Y-%m-%d")(d.date), value : d.value }
-  },
+  var md = getNewData(getMonth);
 
-  // Now I can use this dataset:
-  function(data) {
+  function getMonth(date) {
+    return fd.parse(date).getDate() - 1;
+  }
 
-    // Add X axis --> it is a date format
-    var x = d3.scaleTime()
-      .domain(d3.extent(data, function(d) { return d.date; }))
-      .range([ 0, width ]);
-    svg.append("g")
+  function getNewData(parse_date) {
+    var new_data = JSON.parse(JSON.stringify(dd));
+    new_data.forEach(function(d, i) {
+      var offset = parse_date(d.date);
+      if(offset == 0 || i == 0 || i == dd.length - 1) {
+        d['start'] = true;
+      } else {
+        d['start'] = false;
+        var tar_idx = i - offset;
+        if(tar_idx < 0) { tar_idx = 0; }
+        new_data[tar_idx].value += d.value;
+        d.value = -1;
+      }
+    });
+
+    smoothData(new_data);
+    return new_data;
+  }
+
+  function smoothData(inputArray) {
+    inputArray.forEach(function(d, i) {
+      if(d.start == false) {
+        var prev_val, next_val, prev_dist, next_dist;
+        for(var idx = i; idx>=0; idx--) {
+          if(inputArray[idx].start == true) {
+            prev_val = inputArray[idx].value;
+            prev_dist = i - idx;
+            break;
+          }
+        }
+
+        for(var idx = i; idx < inputArray.length; idx++) {
+          if(inputArray[idx].start == true) {
+            next_val = inputArray[idx].value;
+            next_dist = idx - i;
+            break;
+          }
+        }
+
+        d.value = prev_val + ((next_val - prev_val) * (prev_dist/ (prev_dist + next_dist)));
+      }
+    });
+  }
+
+  var all_data = [
+    { 'name': 'daily', 'data': dd},
+    { 'name': 'weekly', 'data': wd},
+    { 'name': 'monthly', 'data': md}
+  ];
+
+  d3.select('.button-area').selectAll('.app-button')
+    .data(all_data)
+    .enter().append('button')
+    .attr('class', 'app-button')
+    .html(function(d) { return d.name; })
+    .on('click', function(d) {
+      cd = d.data;
+      updateChart();
+    });
+
+  // Chart Setup
+  var margin = { top: 40, right: 80, bottom: 20, left: 80 };
+
+  var width = 840 - margin.left - margin.right;
+  var height = 500 - margin.top - margin.bottom;
+
+  var chart = d3.select(".chart")
+      .attr("width", 840)
+      .attr("height", 500)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  chart.append("text")
+    .text("# COVID Cases vs Time")
+    .attr("text-anchor", "middle")
+    .attr("class", "graph-title")
+    .attr("y", -10)
+    .attr("x", width / 2.0);
+
+  chart.append("text")
+    .attr("text-anchor", "middle")
+    .attr("style", "font-size: 0.9em")
+    .attr("y", height + 50)
+    .attr("x", width / 2.0);
+
+  var x = d3.time.scale()
+      .domain(d3.extent(dd, function(d) { return fd.parse(d.date); }))
+      .range([0, width]);
+
+  var y;
+
+  var x_axis = d3.svg.axis()
+      .scale(x)
+      .orient("bottom");
+
+  chart.append("g")
+      .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+      .call(x_axis);
 
-    // Add Y axis
-    var y = d3.scaleLinear()
-      .domain( [8000, 9200])
-      .range([ height, 0 ]);
-    svg.append("g")
-      .call(d3.axisLeft(y));
+  var overlay = chart.append("rect")
+      .attr("class", "overlay")
+      .attr("width", width)
+      .attr("height", height)
+      .on("mouseover", function() { chart.selectAll('.focus').style("display", null); })
+      .on("mouseout", function() { chart.selectAll('.focus').style("display", "none"); })
 
-    // Add the line
-    svg.append("path")
-      .datum(data)
-      .attr("fill", "none")
-      .attr("stroke", "black")
-      .attr("stroke-width", 1.5)
-      .attr("d", d3.line()
-        .curve(d3.curveBasis) // Just add that to have a curve instead of segments
-        .x(function(d) { return x(d.date) })
-        .y(function(d) { return y(d.value) })
-        )
+  var tooltip = d3.select("body").append("div")
+      .attr("class", "tooltip");
 
-    // create a tooltip
-    var Tooltip = d3.select("#my_dataviz")
-      .append("div")
-      .style("opacity", 0)
-      .attr("class", "tooltip")
-      .style("background-color", "white")
-      .style("border", "solid")
-      .style("border-width", "2px")
-      .style("border-radius", "5px")
-      .style("padding", "5px")
+  var focus = chart.append("g")
+      .attr("class", "focus")
+      .style("display", "none");
 
-      // Three function that change the tooltip when user hover / move / leave a cell
-      var mouseover = function(d) {
-        Tooltip
-          .style("opacity", 1)
-      }
-      var mousemove = function(d) {
-        Tooltip
-          .html("Exact value: " + d.value)
-          .style("left", (d3.mouse(this)[0]+70) + "px")
-          .style("top", (d3.mouse(this)[1]) + "px")
-      }
-      var mouseleave = function(d) {
-        Tooltip
-          .style("opacity", 0)
-      }
+  focus.append("circle")
+      .attr("r", 4.5)
 
-    // Add the points
-    svg
-      .append("g")
-      .selectAll("dot")
-      .data(data)
-      .enter()
-      .append("circle")
-        .attr("class", "myCircle")
-        .attr("cx", function(d) { return x(d.date) } )
-        .attr("cy", function(d) { return y(d.value) } )
-        .attr("r", 8)
-        .attr("stroke", "#69b3a2")
-        .attr("stroke-width", 3)
-        .attr("fill", "white")
-        .on("mouseover", mouseover)
-        .on("mousemove", mousemove)
-        .on("mouseleave", mouseleave)
-})
+  focus.append("text")
+      .attr("x", 9)
+      .attr("dy", ".35em");
 
+  function updateChart() {
+    y = d3.scale.linear()
+        .domain([0, d3.max(cd, function(d) { return d.value; })])
+        .range([height, 0]);
 
+    var y_axis = d3.svg.axis()
+        .scale(y)
+        .orient("right");
+
+    chart.selectAll(".y-axis").remove()
+
+    chart.append("g")
+        .attr("class", "y axis y-axis")
+        .attr("transform", "translate(" + (width + 5) + ",0)")
+        .call(y_axis);
+
+    var line_generator = d3.svg.line()
+        .x(function(d) { return x(fd.parse(d.date)) })
+        .y(function(d) { return y(d.value) });
+
+    var l = chart.selectAll(".line")
+        .data([cd])
+
+    l.enter().append("path")
+        .attr("class", "line")
+        .attr("d", line_generator);
+
+    l.transition()
+        .duration(1000)
+        .attr("d", line_generator);
+
+    overlay.on("mousemove", mousemove);
+  }
+
+  function mousemove() {
+    var x0 = x.invert(d3.mouse(this)[0]),
+        i = bd(cd, x0, 1),
+        d0 = cd[i - 1],
+        d1 = cd[i];
+
+    var i0 = i - 1;
+    while(d0.start == false && i0 > 0) {
+      i0 -= 1;
+      d0 = cd[i0];
+    }
+    var i1 = i;
+    while(d1.start == false && i1 < cd.length - 1) {
+      i1 += 1;
+      d1 = cd[i1];
+    }
+
+    var dateInd = x0 - d0.date > d1.date - x0 ? i1 : i0;
+
+    var tar_date = cd[dateInd]['date'];
+    var tooltip_string = tar_date;
+
+    var tar_value = cd[dateInd].value;
+    focus.attr("transform", "translate(" + x(fd.parse(tar_date)) + ","+y(tar_value)+ ")");
+    tooltip_string += "<br>" + tar_value;
+
+    tooltip.html(tooltip_string)
+      .style("visibility", "visible")
+      .style("top", d3.mouse(this)[1] - (tooltip[0][0].clientHeight - 70) + "px")
+      .style("left", d3.mouse(this)[0] - (tooltip[0][0].clientWidth / 8.0) + "px");
+  }
+
+  cd = dd;
+  updateChart();
+});
 </script>
